@@ -1,0 +1,28 @@
+[0.643s] Invoking command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/tf2_rclcpp_example -- -j12 -l12
+[0.703s] [ 33%] Built target static_broadcaster
+[0.703s] [ 66%] Built target broadcaster
+[0.705s] [100%] Built target listener
+[0.752s] Invoked command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/tf2_rclcpp_example -- -j12 -l12
+[0.838s] Invoking command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/tf2_rclcpp_example
+[0.864s] -- Install configuration: ""
+[0.864s] -- Execute custom install script
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/broadcaster
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/listener
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/static_broadcaster
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/rviz/arm.rviz
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/package_run_dependencies/tf2_rclcpp_example
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/parent_prefix_path/tf2_rclcpp_example
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/ament_prefix_path.sh
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/ament_prefix_path.dsv
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/path.sh
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/path.dsv
+[0.865s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.bash
+[0.866s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.sh
+[0.866s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.zsh
+[0.866s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.dsv
+[0.866s] -- Symlinking: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.dsv
+[0.866s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/packages/tf2_rclcpp_example
+[0.867s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/cmake/tf2_rclcpp_exampleConfig.cmake
+[0.867s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/cmake/tf2_rclcpp_exampleConfig-version.cmake
+[0.867s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.xml
+[0.918s] Invoked command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/tf2_rclcpp_example

@@ -1,0 +1,13 @@
+[0.611s] Invoking command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/tf2_rclcpp_example -- -j12 -l12
+[0.831s] [35m[1mScanning dependencies of target broadcaster[0m
+[0.831s] [35m[1mScanning dependencies of target listener[0m
+[0.832s] [35m[1mScanning dependencies of target static_broadcaster[0m
+[0.832s] [ 16%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[0.832s] [ 33%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_broadcaster.cpp.o[0m
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[3.249s] [ 66%] [32m[1mLinking CXX executable listener[0m
+[3.414s] [ 66%] Built target listener
+[3.869s] [ 83%] [32m[1mLinking CXX executable static_broadcaster[0m
+[4.022s] [ 83%] Built target static_broadcaster
+[4.130s] [100%] [32m[1mLinking CXX executable broadcaster[0m
+[4.294s] [100%] Built target broadcaster

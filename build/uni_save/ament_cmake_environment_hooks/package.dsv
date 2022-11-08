@@ -1,0 +1,4 @@
+source;share/uni_save/local_setup.bash
+source;share/uni_save/local_setup.dsv
+source;share/uni_save/local_setup.sh
+source;share/uni_save/local_setup.zsh

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing excutor_test.egg-info/PKG-INFO
+writing dependency_links to excutor_test.egg-info/dependency_links.txt
+writing entry points to excutor_test.egg-info/entry_points.txt
+writing requirements to excutor_test.egg-info/requires.txt
+writing top-level names to excutor_test.egg-info/top_level.txt
+reading manifest file 'excutor_test.egg-info/SOURCES.txt'
+writing manifest file 'excutor_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages/excutor-test.egg-link (link to .)
+Installing client_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+Installing server_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+
+Installed /home/dahyeon/dev_ws/build/excutor_test
+running install_data

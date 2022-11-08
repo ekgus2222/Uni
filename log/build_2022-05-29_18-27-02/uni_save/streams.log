@@ -1,0 +1,25 @@
+[0.212s] Invoking command in '/home/dahyeon/dev_ws/build/uni_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni_save -- -j12 -l12
+[0.253s] [ 50%] Built target alarmserver
+[0.257s] [100%] Built target alarmclient
+[0.273s] Invoked command in '/home/dahyeon/dev_ws/build/uni_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni_save -- -j12 -l12
+[0.294s] Invoking command in '/home/dahyeon/dev_ws/build/uni_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni_save
+[0.298s] -- Install configuration: ""
+[0.298s] -- Execute custom install script
+[0.299s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/lib/uni_save/alarmserver
+[0.299s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/lib/uni_save/alarmclient
+[0.299s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/package_run_dependencies/uni_save
+[0.299s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/parent_prefix_path/uni_save
+[0.300s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/path.sh
+[0.300s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/path.dsv
+[0.300s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.bash
+[0.301s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.sh
+[0.301s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.zsh
+[0.301s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.dsv
+[0.302s] -- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.dsv
+[0.308s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/packages/uni_save
+[0.309s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/cmake/uni_saveConfig.cmake
+[0.309s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/cmake/uni_saveConfig-version.cmake
+[0.310s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.xml
+[0.316s] Invoked command in '/home/dahyeon/dev_ws/build/uni_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni_save

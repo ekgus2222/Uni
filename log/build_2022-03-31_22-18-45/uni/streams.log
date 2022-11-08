@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/dahyeon/dev_ws/build/uni': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12
+[0.074s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.102s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.252s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.270s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.313s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Found srv_alarm_interface: 0.6.0 (/home/dahyeon/dev_ws/install/srv_alarm_interface/share/srv_alarm_interface/cmake)
+[0.643s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.706s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.708s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.708s] -- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni/include
+[0.708s] -- Configured cppcheck exclude dirs and/or files: 
+[0.710s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.710s] -- Configured cpplint exclude dirs and/or files: 
+[0.710s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.711s] -- Added test 'lint_cmake' to check CMake code style
+[0.712s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.713s] -- Added test 'uncrustify' to check C / C++ code style
+[0.713s] -- Configured uncrustify additional arguments: 
+[0.714s] -- Added test 'xmllint' to check XML markup files
+[0.717s] -- Configuring done
+[0.718s] CMake Error at CMakeLists.txt:46 (add_executable):
+[0.718s]   Cannot find source file:
+[0.718s] 
+[0.718s]     src/alarm_change/alarm_change_client.cpp
+[0.718s] 
+[0.718s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.718s]   .hpp .hxx .in .txx
+[0.718s] 
+[0.719s] 
+[0.719s] CMake Error at CMakeLists.txt:46 (add_executable):
+[0.719s]   No SOURCES given to target: alarm_change_client
+[0.719s] 
+[0.719s] 
+[0.719s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.723s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.725s] Invoked command in '/home/dahyeon/dev_ws/build/uni' returned '2': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12

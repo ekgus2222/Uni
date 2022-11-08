@@ -1,0 +1,59 @@
+[35m[1mScanning dependencies of target time_calculate_node[0m
+[ 40%] Built target create_tcp
+[ 60%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o[0m
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+   92 | , shm_size[01;35m[K)[m[K;
+      |           [01;35m[K^[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+   23 | typedef struct [01;36m[Kshm_struct[m[K{
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::send_request()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   82 | PP_STREAM([01;31m[K<<[m[K "calculated wake time : " << alarm_time_);
+      |           [01;31m[K^~[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_STREAM[m[K’ was not declared in this scope
+   82 |       [01;31m[KRCLCPP_STREAM[m[K(<< "calculated wake time : " << alarm_time_);
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::set_alarminfo()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   16 | fine SHM_NAME [01;35m[K"shm_mem_test"[m[K
+      |               [01;35m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:171:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+  171 | memory_slave([01;36m[KSHM_NAME[m[K, shm);
+      |              [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kbool TimeCalculateNode::compare_time()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:199:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  199 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid wait_alarm(std::string)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:216:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_int(int)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:280:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  280 | void sig_int([01;35m[Kint signo[m[K)
+      |              [01;35m[K~~~~^~~~~[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:140:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  140 | tatic int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:104:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  104 | tatic int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:70:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | tatic int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/time_calculate_node.dir/build.make:76: CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/time_calculate_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

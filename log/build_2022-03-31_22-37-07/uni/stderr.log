@@ -1,0 +1,5 @@
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:[m[K In function ‘[01m[Kvoid parameter_call_back(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:11:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 | [01;35m[K::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>> future[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

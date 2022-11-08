@@ -1,0 +1,20 @@
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:[m[K In constructor ‘[01m[KAlarmserver::Alarmserver(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:25:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   25 |       std::bind(&Alarmserver::parameter_call_back, this, std::placeholders::_1)[01;35m[K)[m[K;
+      |                                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni/include/alarm/alarmserver.hpp:4[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Alarmserver::get_data[abi:cxx11]()':
+alarmserver.cpp:(.text+0x168b): undefined reference to `url_get_proc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x170b): undefined reference to `get_time(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x19ac): undefined reference to `get_transport(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:137: alarmserver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/alarmserver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

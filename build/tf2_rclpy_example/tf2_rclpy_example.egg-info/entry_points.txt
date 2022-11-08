@@ -1,0 +1,5 @@
+[console_scripts]
+broadcaster = tf2_rclpy_example.broadcaster:main
+listener = tf2_rclpy_example.listener:main
+static_broadcaster = tf2_rclpy_example.static_broadcaster:main
+

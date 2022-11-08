@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target broadcaster[0m
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target static_broadcaster[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_broadcaster.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable listener[0m
+[ 66%] Built target listener
+[ 83%] [32m[1mLinking CXX executable static_broadcaster[0m
+[ 83%] Built target static_broadcaster
+[100%] [32m[1mLinking CXX executable broadcaster[0m
+[100%] Built target broadcaster

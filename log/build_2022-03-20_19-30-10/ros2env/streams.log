@@ -1,0 +1,24 @@
+[1.187s] Invoking command in '/home/dahyeon/dev_ws/build/ros2env': PYTHONPATH=/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/ros2env --editable --build-directory /home/dahyeon/dev_ws/build/ros2env/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/ros2env
+[1.369s] running develop
+[1.469s] running egg_info
+[1.469s] creating ros2env.egg-info
+[1.470s] writing ros2env.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.470s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.470s] writing requirements to ros2env.egg-info/requires.txt
+[1.470s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.476s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.519s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.520s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.566s] running build_ext
+[1.566s] Creating /home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages/site.py
+[1.568s] Creating /home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[1.569s] 
+[1.570s] Installed /home/dahyeon/dev_ws/build/ros2env
+[1.570s] running install_data
+[1.570s] creating /home/dahyeon/dev_ws/install/ros2env/share/ament_index
+[1.571s] creating /home/dahyeon/dev_ws/install/ros2env/share/ament_index/resource_index
+[1.571s] creating /home/dahyeon/dev_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.572s] copying resource/ros2env -> /home/dahyeon/dev_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.572s] copying package.xml -> /home/dahyeon/dev_ws/install/ros2env/share/ros2env
+[1.616s] Invoked command in '/home/dahyeon/dev_ws/build/ros2env' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/ros2env --editable --build-directory /home/dahyeon/dev_ws/build/ros2env/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/ros2env

@@ -1,0 +1,8 @@
+{
+  "package_name": "time_msgs",
+  "non_idl_tuples": [
+    "/home/dahyeon/dev_ws/src/uni_time/time_msgs:action/Time.action",
+    "/home/dahyeon/dev_ws/src/uni_time/time_msgs:msg/Time.msg",
+    "/home/dahyeon/dev_ws/src/uni_time/time_msgs:srv/Time.srv"
+  ]
+}

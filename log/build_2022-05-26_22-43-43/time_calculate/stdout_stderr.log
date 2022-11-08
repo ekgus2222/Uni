@@ -1,0 +1,97 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found time_msgs: 0.0.0 (/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni_time/time_calculate/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dahyeon/dev_ws/build/time_calculate
+[35m[1mScanning dependencies of target get_gps[0m
+[35m[1mScanning dependencies of target create_tcp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/get_gps.dir/src/homeTCP.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/create_tcp.dir/src/tcpNshared.cpp.o[0m
+[ 71%] Built target time_calculate_node
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:13:[m[K [01;35m[Kwarning: [m[K"BUFFSIZE" redefined
+   13 | #define BUFFSIZE 1024
+      | 
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:18:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   18 | #define BUFFSIZE 4096
+      | 
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:14:[m[K [01;35m[Kwarning: [m[K"PORTNO" redefined
+   14 | #define PORTNO 39999
+      | 
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:19:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   19 | #define PORTNO 6000
+      | 
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+   92 |     memset(shm, 0, shm_size[01;35m[K)[m[K;
+      |                            [01;35m[K^[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+   23 | typedef struct [01;36m[Kshm_struct[m[K{
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:109:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kint __init_shared_memory_slave(char*, shm_struct_t*&)[m[K’
+  109 |     ret = __init_shared_memory_slave([01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:115:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  115 | static int [01;36m[K__init_shared_memory_slave[m[K(char* name, shm_struct_t* &shm)
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+   92 |     memset(shm, 0, shm_size[01;35m[K)[m[K;
+      |                            [01;35m[K^[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+   23 | typedef struct [01;36m[Kshm_struct[m[K{
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   16 | #define SHM_NAME [01;35m[K"shm_mem_test"[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:151:39:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+  151 |     ret = __init_shared_memory_master([01;36m[KSHM_NAME[m[K, shm, mtx_attr);
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:149:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  149 |     int ret, [01;35m[Ki[m[K;
+      |              [01;35m[K^[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:104:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  104 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:70:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/get_gps.dir/build.make:63: CMakeFiles/get_gps.dir/src/homeTCP.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/get_gps.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:140:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  140 | static int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:115:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_slave(char*, shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  115 | static int [01;35m[K__init_shared_memory_slave[m[K(char* name, shm_struct_t* &shm)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 85%] [32m[1mLinking CXX executable create_tcp[0m
+[ 85%] Built target create_tcp
+make: *** [Makefile:141: all] Error 2

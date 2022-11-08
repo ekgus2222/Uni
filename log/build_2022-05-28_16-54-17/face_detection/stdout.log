@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating face_detection.egg-info
+writing face_detection.egg-info/PKG-INFO
+writing dependency_links to face_detection.egg-info/dependency_links.txt
+writing entry points to face_detection.egg-info/entry_points.txt
+writing requirements to face_detection.egg-info/requires.txt
+writing top-level names to face_detection.egg-info/top_level.txt
+writing manifest file 'face_detection.egg-info/SOURCES.txt'
+reading manifest file 'face_detection.egg-info/SOURCES.txt'
+writing manifest file 'face_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages/site.py
+Creating /home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages/face-detection.egg-link (link to .)
+Installing face_detect script to /home/dahyeon/dev_ws/install/face_detection/lib/face_detection
+
+Installed /home/dahyeon/dev_ws/build/face_detection
+running install_data
+creating /home/dahyeon/dev_ws/install/face_detection/share/ament_index
+creating /home/dahyeon/dev_ws/install/face_detection/share/ament_index/resource_index
+creating /home/dahyeon/dev_ws/install/face_detection/share/ament_index/resource_index/packages
+copying resource/face_detection -> /home/dahyeon/dev_ws/install/face_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/dahyeon/dev_ws/install/face_detection/share/face_detection

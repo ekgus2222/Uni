@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from time_msgs/action/Time.action
+// generated code does not contain a copyright notice
+
+
+module time_msgs {
+  module action {
+    struct Time_Goal {
+      int32 year;
+
+      int32 month;
+
+      int32 day;
+
+      int32 hour;
+
+      int32 minute;
+
+      int32 second;
+    };
+    struct Time_Result {
+      sequence<int32> current_time;
+    };
+    struct Time_Feedback {
+      sequence<int32> response_time;
+    };
+  };
+};

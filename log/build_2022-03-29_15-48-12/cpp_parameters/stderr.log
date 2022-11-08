@@ -1,0 +1,15 @@
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:[m[K In function ‘[01m[Kvoid parameter_call_back(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:10:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   10 | void parameter_call_back([01;35m[Kstd::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>> future[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_server.cpp:[m[K In constructor ‘[01m[KParametersServerClass::ParametersServerClass()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_server.cpp:22:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   22 |       [01;35m[K)[m[K;
+      |       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_server.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

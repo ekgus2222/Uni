@@ -1,0 +1,17 @@
+[0.998s] Invoking command in '/home/dahyeon/dev_ws/build/time_rclpy_example': PYTHONPATH=/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_rclpy_example
+[1.295s] running develop
+[1.417s] running egg_info
+[1.417s] writing time_rclpy_example.egg-info/PKG-INFO
+[1.418s] writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+[1.418s] writing entry points to time_rclpy_example.egg-info/entry_points.txt
+[1.418s] writing requirements to time_rclpy_example.egg-info/requires.txt
+[1.418s] writing top-level names to time_rclpy_example.egg-info/top_level.txt
+[1.445s] reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.446s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.475s] running build_ext
+[1.476s] Creating /home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages/time-rclpy-example.egg-link (link to .)
+[1.476s] Installing time_example script to /home/dahyeon/dev_ws/install/time_rclpy_example/lib/time_rclpy_example
+[1.477s] 
+[1.477s] Installed /home/dahyeon/dev_ws/build/time_rclpy_example
+[1.477s] running install_data
+[1.503s] Invoked command in '/home/dahyeon/dev_ws/build/time_rclpy_example' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_rclpy_example

@@ -1,0 +1,18 @@
+[1.233s] Invoking command in '/home/dahyeon/dev_ws/build/face_detection': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection
+[1.439s] running develop
+[1.559s] running egg_info
+[1.559s] writing face_detection.egg-info/PKG-INFO
+[1.559s] writing dependency_links to face_detection.egg-info/dependency_links.txt
+[1.559s] writing entry points to face_detection.egg-info/entry_points.txt
+[1.560s] writing requirements to face_detection.egg-info/requires.txt
+[1.560s] writing top-level names to face_detection.egg-info/top_level.txt
+[1.586s] reading manifest file 'face_detection.egg-info/SOURCES.txt'
+[1.586s] writing manifest file 'face_detection.egg-info/SOURCES.txt'
+[1.613s] running build_ext
+[1.614s] Creating /home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages/face-detection.egg-link (link to .)
+[1.614s] Installing face_detect script to /home/dahyeon/dev_ws/install/face_detection/lib/face_detection
+[1.615s] 
+[1.615s] Installed /home/dahyeon/dev_ws/build/face_detection
+[1.615s] running install_data
+[1.615s] copying package.xml -> /home/dahyeon/dev_ws/install/face_detection/share/face_detection
+[1.642s] Invoked command in '/home/dahyeon/dev_ws/build/face_detection' returned '0': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection

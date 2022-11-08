@@ -1,0 +1,18 @@
+[0.498s] Invoking command in '/home/dahyeon/dev_ws/build/excutor_test': PYTHONPATH=/home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/excutor_test --editable --build-directory /home/dahyeon/dev_ws/build/excutor_test/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/excutor_test
+[0.688s] running develop
+[0.802s] running egg_info
+[0.802s] writing excutor_test.egg-info/PKG-INFO
+[0.802s] writing dependency_links to excutor_test.egg-info/dependency_links.txt
+[0.803s] writing entry points to excutor_test.egg-info/entry_points.txt
+[0.803s] writing requirements to excutor_test.egg-info/requires.txt
+[0.803s] writing top-level names to excutor_test.egg-info/top_level.txt
+[0.826s] reading manifest file 'excutor_test.egg-info/SOURCES.txt'
+[0.827s] writing manifest file 'excutor_test.egg-info/SOURCES.txt'
+[0.853s] running build_ext
+[0.854s] Creating /home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages/excutor-test.egg-link (link to .)
+[0.854s] Installing client_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+[0.855s] Installing server_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+[0.855s] 
+[0.855s] Installed /home/dahyeon/dev_ws/build/excutor_test
+[0.855s] running install_data
+[0.873s] Invoked command in '/home/dahyeon/dev_ws/build/excutor_test' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/excutor_test --editable --build-directory /home/dahyeon/dev_ws/build/excutor_test/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/excutor_test

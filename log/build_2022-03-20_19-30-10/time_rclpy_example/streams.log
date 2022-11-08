@@ -1,0 +1,25 @@
+[0.750s] Invoking command in '/home/dahyeon/dev_ws/build/time_rclpy_example': PYTHONPATH=/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_rclpy_example
+[0.923s] running develop
+[1.023s] running egg_info
+[1.023s] creating time_rclpy_example.egg-info
+[1.023s] writing time_rclpy_example.egg-info/PKG-INFO
+[1.023s] writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+[1.023s] writing entry points to time_rclpy_example.egg-info/entry_points.txt
+[1.023s] writing requirements to time_rclpy_example.egg-info/requires.txt
+[1.023s] writing top-level names to time_rclpy_example.egg-info/top_level.txt
+[1.024s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.049s] reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.050s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.076s] running build_ext
+[1.076s] Creating /home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages/site.py
+[1.078s] Creating /home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages/time-rclpy-example.egg-link (link to .)
+[1.078s] Installing time_example script to /home/dahyeon/dev_ws/install/time_rclpy_example/lib/time_rclpy_example
+[1.079s] 
+[1.079s] Installed /home/dahyeon/dev_ws/build/time_rclpy_example
+[1.079s] running install_data
+[1.079s] creating /home/dahyeon/dev_ws/install/time_rclpy_example/share/ament_index
+[1.079s] creating /home/dahyeon/dev_ws/install/time_rclpy_example/share/ament_index/resource_index
+[1.079s] creating /home/dahyeon/dev_ws/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.079s] copying resource/time_rclpy_example -> /home/dahyeon/dev_ws/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.079s] copying package.xml -> /home/dahyeon/dev_ws/install/time_rclpy_example/share/time_rclpy_example
+[1.102s] Invoked command in '/home/dahyeon/dev_ws/build/time_rclpy_example' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_rclpy_example

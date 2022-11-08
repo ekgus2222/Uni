@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/dahyeon/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/cpp_pubsub
+[0.044s] -- The C compiler identification is GNU 9.3.0
+[0.079s] -- The CXX compiler identification is GNU 9.3.0
+[0.083s] -- Check for working C compiler: /usr/bin/cc
+[0.126s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.127s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.239s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.322s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.468s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.592s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Looking for pthread.h
+[0.764s] -- Looking for pthread.h - found
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.827s] -- Looking for pthread_create in pthreads
+[0.895s] -- Looking for pthread_create in pthreads - not found
+[0.895s] -- Looking for pthread_create in pthread
+[1.014s] -- Looking for pthread_create in pthread - found
+[1.016s] -- Found Threads: TRUE  
+[1.172s] CMake Error at CMakeLists.txt:24 (intsall):
+[1.172s]   Unknown CMake command "intsall".
+[1.172s] 
+[1.172s] 
+[1.173s] -- Configuring incomplete, errors occurred!
+[1.173s] See also "/home/dahyeon/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[1.173s] See also "/home/dahyeon/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[1.178s] Invoked command in '/home/dahyeon/dev_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/cpp_pubsub

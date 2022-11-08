@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+face_detection/__init__.py
+face_detection/face_classifier.py
+face_detection/person_db.py
+face_detection/ros2_bridge.py
+face_detection.egg-info/PKG-INFO
+face_detection.egg-info/SOURCES.txt
+face_detection.egg-info/dependency_links.txt
+face_detection.egg-info/entry_points.txt
+face_detection.egg-info/requires.txt
+face_detection.egg-info/top_level.txt
+face_detection.egg-info/zip-safe
+resource/face_detection

@@ -1,0 +1,84 @@
+[35m[1mScanning dependencies of target time_calculate_node[0m
+[ 44%] Built target get_gps
+[ 44%] Built target create_tcp
+[ 66%] Built target minimal_subscriber
+[ 77%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o[0m
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:169:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  169 |     pthread_mutex_lock(&shm->mtx);    /*Uncomment at the end of the test
+      |                                        
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:170:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  170 |     ishome_ = shm->ishome;            /*Uncomment at the end of the test
+      |                                        
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:171:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  171 |     pthread_mutex_unlock(&shm->mtx);  /*Uncomment at the end of the test
+      |                                        
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:174:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  174 |       pthread_mutex_lock(&shm->mtx);    /*Uncomment at the end of the test
+      |                                          
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:175:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  175 |       ishome_ = shm->ishome;            /*Uncomment at the end of the test
+      |                                          
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:176:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  176 |       pthread_mutex_unlock(&shm->mtx);  /*Uncomment at the end of the test
+      |                                          
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::set_alarminfo()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   16 | #define SHM_NAME [01;35m[K"shm_mem_test"[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:200:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+  200 |   ret = __init_shared_memory_slave([01;36m[KSHM_NAME[m[K, shm);
+      |                                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:199:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  199 |   int [01;35m[Kret[m[K;
+      |       [01;35m[K^~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kbool TimeCalculateNode::compare_time()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:228:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  228 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid wait_alarm(std::string)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:245:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  245 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_alm(int)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:309:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  309 | void sig_alm([01;35m[Kint signo[m[K)
+      |              [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_int(int)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:314:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  314 | void sig_int([01;35m[Kint signo[m[K)
+      |              [01;35m[K~~~~^~~~~[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:141:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  141 | static int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:105:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  105 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:71:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   71 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 88%] [32m[1mLinking CXX executable time_calculate_node[0m
+[100%] Built target time_calculate_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/lib/time_calculate/time_calculate_node
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/lib/time_calculate/create_tcp
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/lib/time_calculate/get_gps
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/lib/time_calculate/minimal_subscriber
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/ament_index/resource_index/package_run_dependencies/time_calculate
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/ament_index/resource_index/parent_prefix_path/time_calculate
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/environment/path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/environment/path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/local_setup.bash
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/local_setup.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/local_setup.zsh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/ament_index/resource_index/packages/time_calculate
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/cmake/time_calculateConfig.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/cmake/time_calculateConfig-version.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.xml

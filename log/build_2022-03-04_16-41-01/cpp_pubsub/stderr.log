@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:24 (intsall):
+  Unknown CMake command "intsall".
+
+

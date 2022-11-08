@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing face_detection.egg-info/PKG-INFO
+writing dependency_links to face_detection.egg-info/dependency_links.txt
+writing entry points to face_detection.egg-info/entry_points.txt
+writing requirements to face_detection.egg-info/requires.txt
+writing top-level names to face_detection.egg-info/top_level.txt
+reading manifest file 'face_detection.egg-info/SOURCES.txt'
+writing manifest file 'face_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages/face-detection.egg-link (link to .)
+Installing face_detect script to /home/dahyeon/dev_ws/install/face_detection/lib/face_detection
+
+Installed /home/dahyeon/dev_ws/build/face_detection
+running install_data
+copying package.xml -> /home/dahyeon/dev_ws/install/face_detection/share/face_detection

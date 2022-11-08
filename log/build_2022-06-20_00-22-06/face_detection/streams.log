@@ -1,0 +1,17 @@
+[0.492s] Invoking command in '/home/dahyeon/dev_ws/build/face_detection': PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection
+[0.685s] running develop
+[0.795s] running egg_info
+[0.796s] writing face_detection.egg-info/PKG-INFO
+[0.796s] writing dependency_links to face_detection.egg-info/dependency_links.txt
+[0.796s] writing entry points to face_detection.egg-info/entry_points.txt
+[0.796s] writing requirements to face_detection.egg-info/requires.txt
+[0.797s] writing top-level names to face_detection.egg-info/top_level.txt
+[0.819s] reading manifest file 'face_detection.egg-info/SOURCES.txt'
+[0.820s] writing manifest file 'face_detection.egg-info/SOURCES.txt'
+[0.844s] running build_ext
+[0.845s] Creating /home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages/face-detection.egg-link (link to .)
+[0.845s] Installing face_detect script to /home/dahyeon/dev_ws/install/face_detection/lib/face_detection
+[0.845s] 
+[0.845s] Installed /home/dahyeon/dev_ws/build/face_detection
+[0.845s] running install_data
+[0.861s] Invoked command in '/home/dahyeon/dev_ws/build/face_detection' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection

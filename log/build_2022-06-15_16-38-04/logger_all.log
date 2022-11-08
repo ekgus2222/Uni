@@ -1,0 +1,470 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.112s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0c3b9f70a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0c3b9f70a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0c3b9f7550>)
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.116s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dahyeon/dev_ws'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_detection) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_detection' with type 'ros.ament_python' and name 'face_detection'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uni' with type 'ros.ament_cmake' and name 'uni'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_save) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uni_save' with type 'ros.ament_cmake' and name 'uni_save'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_alarm_handle) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uni_time/time_alarm_handle' with type 'ros.ament_python' and name 'time_alarm_handle'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_calculate) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uni_time/time_calculate' with type 'ros.ament_cmake' and name 'time_calculate'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/uni_time/time_msgs) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uni_time/time_msgs' with type 'ros.ament_cmake' and name 'time_msgs'
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_target' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'face_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'face_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/face_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/face_detection', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/face_detection', 'symlink_install': True, 'test_result_base': None}
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_target' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'time_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.149s] DEBUG:colcon.colcon_core.verb:Building package 'time_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/time_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/time_msgs', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/uni_time/time_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'uni' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/uni', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/uni', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/uni', 'symlink_install': True, 'test_result_base': None}
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_target' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_clean_cache' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_clean_first' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'cmake_force_configure' from command line to 'False'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'ament_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'catkin_cmake_args' from command line to 'None'
+[0.150s] Level 5:colcon.colcon_core.verb:set package 'uni_save' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.150s] DEBUG:colcon.colcon_core.verb:Building package 'uni_save' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/uni_save', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/uni_save', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/uni_save', 'symlink_install': True, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'time_alarm_handle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'time_alarm_handle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/time_alarm_handle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/time_alarm_handle', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/uni_time/time_alarm_handle', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'time_calculate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'time_calculate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dahyeon/dev_ws/build/time_calculate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dahyeon/dev_ws/install/time_calculate', 'merge_install': False, 'path': '/home/dahyeon/dev_ws/src/uni_time/time_calculate', 'symlink_install': True, 'test_result_base': None}
+[0.155s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'face_detection' is in: /home/dahyeon/dev_ws/install/face_detection
+	'time_msgs' is in: /home/dahyeon/dev_ws/install/time_msgs
+	'uni' is in: /home/dahyeon/dev_ws/install/uni
+	'uni_save' is in: /home/dahyeon/dev_ws/install/uni_save
+	'time_alarm_handle' is in: /home/dahyeon/dev_ws/install/time_alarm_handle
+	'time_calculate' is in: /home/dahyeon/dev_ws/install/time_calculate
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding face_detection time_alarm_handle time_calculate time_msgs uni uni_save
+
+This may be promoted to an error in a future release of colcon-core.
+[0.155s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dahyeon/dev_ws/src/uni_time/time_msgs' with build type 'ament_cmake'
+[0.157s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dahyeon/dev_ws/src/uni_time/time_msgs'
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.164s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dahyeon/dev_ws/src/face_detection' with build type 'ament_python'
+[0.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_detection', 'ament_prefix_path')
+[0.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/ament_prefix_path.ps1'
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/ament_prefix_path.dsv'
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/ament_prefix_path.sh'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dahyeon/dev_ws/src/uni' with build type 'ament_cmake'
+[0.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dahyeon/dev_ws/src/uni'
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dahyeon/dev_ws/src/uni_save' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dahyeon/dev_ws/src/uni_save'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/time_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_msgs -- -j12 -l12
+[0.384s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dahyeon/dev_ws/src/face_detection'
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/uni': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/uni_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni_save -- -j12 -l12
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/time_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_msgs -- -j12 -l12
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/uni' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/uni_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni_save -- -j12 -l12
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/time_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_msgs
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/uni_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni_save
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/uni': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uni_save)
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/uni_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni_save
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save' for CMake module files
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save' for CMake config files
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('uni_save', 'cmake_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/bin'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib/pkgconfig/uni_save.pc'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib/python3.8/site-packages'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.sh'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.bash'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.zsh'
+[0.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/uni_save/share/colcon-core/packages/uni_save)
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uni)
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni' for CMake module files
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/uni' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/uni
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni' for CMake config files
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('uni', 'cmake_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib/pkgconfig/uni.pc'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib/python3.8/site-packages'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/uni/share/uni/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/uni/share/colcon-core/packages/uni)
+[0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uni_save)
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save' for CMake module files
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('uni_save', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib/pkgconfig/uni_save.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni_save/lib/python3.8/site-packages'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.zsh'
+[0.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/uni_save/share/colcon-core/packages/uni_save)
+[0.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uni)
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni' for CMake module files
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni' for CMake config files
+[0.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('uni', 'cmake_prefix_path')
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/uni/share/uni/hook/cmake_prefix_path.sh'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/bin'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib/pkgconfig/uni.pc'
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/uni/lib/python3.8/site-packages'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/uni/share/uni/package.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.sh'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.bash'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/uni/share/uni/package.zsh'
+[0.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/uni/share/colcon-core/packages/uni)
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_msgs)
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs' for CMake module files
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/time_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_msgs
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs' for CMake config files
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'cmake_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.sh'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib'
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'ld_library_path_lib')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.sh'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/bin'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib/pkgconfig/time_msgs.pc'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages'
+[0.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'pythonpath')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.sh'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.sh'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.bash'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.zsh'
+[0.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/time_msgs/share/colcon-core/packages/time_msgs)
+[0.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_msgs)
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs' for CMake module files
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'cmake_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/cmake_prefix_path.sh'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib'
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'ld_library_path_lib')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/ld_library_path_lib.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib/pkgconfig/time_msgs.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_msgs', 'pythonpath')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/hook/pythonpath.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.bash'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/package.zsh'
+[0.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/time_msgs/share/colcon-core/packages/time_msgs)
+[0.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dahyeon/dev_ws/src/uni_time/time_alarm_handle' with build type 'ament_python'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_alarm_handle', 'ament_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/ament_prefix_path.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/ament_prefix_path.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/ament_prefix_path.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dahyeon/dev_ws/src/uni_time/time_calculate' with build type 'ament_cmake'
+[0.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dahyeon/dev_ws/src/uni_time/time_calculate'
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.803s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dahyeon/dev_ws/src/uni_time/time_alarm_handle'
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/time_calculate': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/face_detection': PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/time_calculate' returned '0': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/time_alarm_handle': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_alarm_handle --editable --build-directory /home/dahyeon/dev_ws/build/time_alarm_handle/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_alarm_handle
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dahyeon/dev_ws/build/time_calculate': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_calculate
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_calculate)
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate' for CMake module files
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/time_calculate' returned '0': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_calculate
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate' for CMake config files
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_calculate', 'cmake_prefix_path')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib/pkgconfig/time_calculate.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib/python3.8/site-packages'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.bash'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.zsh'
+[1.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/time_calculate/share/colcon-core/packages/time_calculate)
+[1.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_calculate)
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate' for CMake config files
+[1.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_calculate', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib/pkgconfig/time_calculate.pc'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_calculate/lib/python3.8/site-packages'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.bash'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_calculate/share/time_calculate/package.zsh'
+[1.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/time_calculate/share/colcon-core/packages/time_calculate)
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_detection', 'pythonpath_develop')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/build/face_detection/share/face_detection/hook/pythonpath_develop.ps1'
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/face_detection' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/build/face_detection/share/face_detection/hook/pythonpath_develop.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/build/face_detection/share/face_detection/hook/pythonpath_develop.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection' for CMake module files
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection' for CMake config files
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection/lib'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection/lib/pkgconfig/face_detection.pc'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages'
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_detection', 'pythonpath')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/pythonpath.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/pythonpath.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/hook/pythonpath.sh'
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_detection)
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/package.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/face_detection/share/face_detection/package.zsh'
+[1.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/face_detection/share/colcon-core/packages/face_detection)
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_alarm_handle', 'pythonpath_develop')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.ps1'
+[1.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dahyeon/dev_ws/build/time_alarm_handle' returned '0': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/time_alarm_handle --editable --build-directory /home/dahyeon/dev_ws/build/time_alarm_handle/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/time_alarm_handle
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle' for CMake module files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle' for CMake config files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle/lib'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle/bin'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle/lib/pkgconfig/time_alarm_handle.pc'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages'
+[1.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_alarm_handle', 'pythonpath')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/pythonpath.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/pythonpath.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/hook/pythonpath.sh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_alarm_handle)
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/package.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/package.sh'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/package.bash'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle/package.zsh'
+[1.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dahyeon/dev_ws/install/time_alarm_handle/share/colcon-core/packages/time_alarm_handle)
+[1.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.518s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.523s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.532s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dahyeon/dev_ws/install/local_setup.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dahyeon/dev_ws/install/_local_setup_util_ps1.py'
+[1.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dahyeon/dev_ws/install/setup.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dahyeon/dev_ws/install/local_setup.sh'
+[1.537s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dahyeon/dev_ws/install/_local_setup_util_sh.py'
+[1.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dahyeon/dev_ws/install/setup.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dahyeon/dev_ws/install/local_setup.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dahyeon/dev_ws/install/setup.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dahyeon/dev_ws/install/local_setup.zsh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dahyeon/dev_ws/install/setup.zsh'

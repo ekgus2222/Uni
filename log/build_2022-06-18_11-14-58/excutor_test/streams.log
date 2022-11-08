@@ -1,0 +1,26 @@
+[0.540s] Invoking command in '/home/dahyeon/dev_ws/build/excutor_test': PYTHONPATH=/home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/excutor_test --editable --build-directory /home/dahyeon/dev_ws/build/excutor_test/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/excutor_test
+[0.729s] running develop
+[0.857s] running egg_info
+[0.857s] creating excutor_test.egg-info
+[0.857s] writing excutor_test.egg-info/PKG-INFO
+[0.858s] writing dependency_links to excutor_test.egg-info/dependency_links.txt
+[0.858s] writing entry points to excutor_test.egg-info/entry_points.txt
+[0.858s] writing requirements to excutor_test.egg-info/requires.txt
+[0.858s] writing top-level names to excutor_test.egg-info/top_level.txt
+[0.862s] writing manifest file 'excutor_test.egg-info/SOURCES.txt'
+[0.886s] reading manifest file 'excutor_test.egg-info/SOURCES.txt'
+[0.886s] writing manifest file 'excutor_test.egg-info/SOURCES.txt'
+[0.913s] running build_ext
+[0.913s] Creating /home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages/site.py
+[0.914s] Creating /home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages/excutor-test.egg-link (link to .)
+[0.915s] Installing client_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+[0.915s] Installing server_node script to /home/dahyeon/dev_ws/install/excutor_test/lib/excutor_test
+[0.915s] 
+[0.915s] Installed /home/dahyeon/dev_ws/build/excutor_test
+[0.915s] running install_data
+[0.915s] creating /home/dahyeon/dev_ws/install/excutor_test/share/ament_index
+[0.915s] creating /home/dahyeon/dev_ws/install/excutor_test/share/ament_index/resource_index
+[0.915s] creating /home/dahyeon/dev_ws/install/excutor_test/share/ament_index/resource_index/packages
+[0.915s] copying resource/excutor_test -> /home/dahyeon/dev_ws/install/excutor_test/share/ament_index/resource_index/packages
+[0.915s] copying package.xml -> /home/dahyeon/dev_ws/install/excutor_test/share/excutor_test
+[0.932s] Invoked command in '/home/dahyeon/dev_ws/build/excutor_test' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/excutor_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/excutor_test --editable --build-directory /home/dahyeon/dev_ws/build/excutor_test/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/excutor_test

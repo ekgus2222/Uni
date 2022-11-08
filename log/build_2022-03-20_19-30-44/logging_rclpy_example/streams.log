@@ -1,0 +1,17 @@
+[1.208s] Invoking command in '/home/dahyeon/dev_ws/build/logging_rclpy_example': PYTHONPATH=/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/logging_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/logging_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/logging_rclpy_example
+[1.482s] running develop
+[1.741s] running egg_info
+[1.741s] writing logging_rclpy_example.egg-info/PKG-INFO
+[1.741s] writing dependency_links to logging_rclpy_example.egg-info/dependency_links.txt
+[1.741s] writing entry points to logging_rclpy_example.egg-info/entry_points.txt
+[1.742s] writing requirements to logging_rclpy_example.egg-info/requires.txt
+[1.742s] writing top-level names to logging_rclpy_example.egg-info/top_level.txt
+[1.838s] reading manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.839s] writing manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.902s] running build_ext
+[1.902s] Creating /home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging-rclpy-example.egg-link (link to .)
+[1.904s] Installing logging_example script to /home/dahyeon/dev_ws/install/logging_rclpy_example/lib/logging_rclpy_example
+[1.904s] 
+[1.904s] Installed /home/dahyeon/dev_ws/build/logging_rclpy_example
+[1.905s] running install_data
+[1.952s] Invoked command in '/home/dahyeon/dev_ws/build/logging_rclpy_example' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/logging_rclpy_example --editable --build-directory /home/dahyeon/dev_ws/build/logging_rclpy_example/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/logging_rclpy_example

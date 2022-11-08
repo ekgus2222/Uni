@@ -1,0 +1,27 @@
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:[m[K In function ‘[01m[Kvoid parameter_call_back(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:11:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 | void parameter_call_back([01;35m[Kstd::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>> future[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:42:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   42 |     char *argv2 = [01;35m[K"10"[m[K;
+      |                   [01;35m[K^~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm_request/alarm_change_client.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargv2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   42 |     char *[01;35m[Kargv2[m[K = "10";
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:[m[K In constructor ‘[01m[KAlarmserver::Alarmserver(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:44:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   44 |       std::bind(&Alarmserver::parameter_call_back, this, std::placeholders::_1)[01;35m[K)[m[K;
+      |                                                                                [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni/include/alarm/alarmserver.hpp:4[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:[m[K In function ‘[01m[Kstd::string Json_time(std::string)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:122:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  122 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

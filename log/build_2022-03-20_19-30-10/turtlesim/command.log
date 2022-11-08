@@ -1,0 +1,3 @@
+Invoking command in '/home/dahyeon/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/turtlesim
+Invoked command in '/home/dahyeon/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/turtlesim
+Invoking command in '/home/dahyeon/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/turtlesim -- -j12 -l12

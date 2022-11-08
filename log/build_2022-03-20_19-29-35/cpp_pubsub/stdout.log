@@ -1,0 +1,21 @@
+[100%] Built target listener
+[100%] Built target talker
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

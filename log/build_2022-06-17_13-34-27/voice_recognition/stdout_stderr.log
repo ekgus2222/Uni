@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating voice_recognition.egg-info
+writing voice_recognition.egg-info/PKG-INFO
+writing dependency_links to voice_recognition.egg-info/dependency_links.txt
+writing entry points to voice_recognition.egg-info/entry_points.txt
+writing requirements to voice_recognition.egg-info/requires.txt
+writing top-level names to voice_recognition.egg-info/top_level.txt
+writing manifest file 'voice_recognition.egg-info/SOURCES.txt'
+reading manifest file 'voice_recognition.egg-info/SOURCES.txt'
+writing manifest file 'voice_recognition.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/voice_recognition/lib/python3.8/site-packages/site.py
+Creating /home/dahyeon/dev_ws/install/voice_recognition/lib/python3.8/site-packages/voice-recognition.egg-link (link to .)
+Installing stt_tts_sub script to /home/dahyeon/dev_ws/install/voice_recognition/lib/voice_recognition
+
+Installed /home/dahyeon/dev_ws/build/voice_recognition
+running install_data
+creating /home/dahyeon/dev_ws/install/voice_recognition/share/ament_index
+creating /home/dahyeon/dev_ws/install/voice_recognition/share/ament_index/resource_index
+creating /home/dahyeon/dev_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying resource/voice_recognition -> /home/dahyeon/dev_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying package.xml -> /home/dahyeon/dev_ws/install/voice_recognition/share/voice_recognition

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target time_example[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/time_example.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable time_example[0m
+[100%] Built target time_example

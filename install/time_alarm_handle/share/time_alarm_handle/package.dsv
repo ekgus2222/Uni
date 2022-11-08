@@ -1,0 +1,9 @@
+source;share/time_alarm_handle/hook/pythonpath.ps1
+source;share/time_alarm_handle/hook/pythonpath.dsv
+source;share/time_alarm_handle/hook/pythonpath.sh
+source;share/time_alarm_handle/hook/ament_prefix_path.ps1
+source;share/time_alarm_handle/hook/ament_prefix_path.dsv
+source;share/time_alarm_handle/hook/ament_prefix_path.sh
+source;../../build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.ps1
+source;../../build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.dsv
+source;../../build/time_alarm_handle/share/time_alarm_handle/hook/pythonpath_develop.sh

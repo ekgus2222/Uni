@@ -1,0 +1,6 @@
+{
+  "package_name": "srv_alarm_interface",
+  "non_idl_tuples": [
+    "/home/dahyeon/dev_ws/src/srv_alarm_interface:srv/Alarm.srv"
+  ]
+}

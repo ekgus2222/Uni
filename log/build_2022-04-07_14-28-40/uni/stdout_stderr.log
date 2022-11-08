@@ -1,0 +1,11 @@
+[ 83%] Built target alarmclient
+[ 66%] [32m[1mLinking CXX executable alarmserver[0m
+[ 83%] Built target alarm_change_client
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Alarmserver::get_data[abi:cxx11]()':
+alarmserver.cpp:(.text+0x168b): undefined reference to `url_get_proc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x170b): undefined reference to `get_time(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x19a3): undefined reference to `get_transport(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:137: alarmserver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/alarmserver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

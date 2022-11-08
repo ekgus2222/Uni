@@ -1,0 +1,19 @@
+make[2]: *** [CMakeFiles/calculator.dir/build.make:76: CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/checker.dir/build.make:63: CMakeFiles/checker.dir/src/checker/main.cpp.o] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** [test/CMakeFiles/test_calculator.dir/build.make:63: test/CMakeFiles/test_calculator.dir/test_calculator.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/argument.dir/build.make:63: CMakeFiles/argument.dir/src/arithmetic/argument.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/operator.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:179: CMakeFiles/calculator.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/argument.dir/all] Interrupt
+make[2]: *** [test/CMakeFiles/test_calculator.dir/build.make:76: test/CMakeFiles/test_calculator.dir/__/src/calculator/calculator.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:288: test/CMakeFiles/test_calculator.dir/all] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

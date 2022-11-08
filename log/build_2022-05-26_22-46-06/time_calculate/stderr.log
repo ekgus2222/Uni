@@ -1,0 +1,5 @@
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-rt[m[K’; did you mean ‘[01m[K-r[m[K’?
+make[2]: *** [CMakeFiles/get_gps.dir/build.make:84: get_gps] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/get_gps.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

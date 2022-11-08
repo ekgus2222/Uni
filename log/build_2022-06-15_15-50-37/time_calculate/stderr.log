@@ -1,0 +1,19 @@
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   16 | #define SHM_NAME [01;35m[K"shm_mem_test"[m[K
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:159:39:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+  159 |     ret = __init_shared_memory_master([01;36m[KSHM_NAME[m[K, shm, mtx_attr);
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:157:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  157 |     int ret, [01;35m[Ki[m[K;
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:141:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  141 | static int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:116:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_slave(char*, shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  116 | static int [01;35m[K__init_shared_memory_slave[m[K(char* name, shm_struct_t* &shm)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target minimal_subscriber[0m
+[ 22%] Built target create_tcp
+[ 44%] Built target get_gps
+[ 77%] Built target time_calculate_node
+[ 88%] [32mBuilding CXX object CMakeFiles/minimal_subscriber.dir/src/time_sub.cpp.o[0m

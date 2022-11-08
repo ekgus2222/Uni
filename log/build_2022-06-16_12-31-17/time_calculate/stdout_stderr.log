@@ -1,0 +1,83 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found time_msgs: 0.0.0 (/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni_time/time_calculate/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dahyeon/dev_ws/build/time_calculate
+[35m[1mScanning dependencies of target minimal_subscriber[0m
+[ 44%] Built target create_tcp
+[ 44%] Built target get_gps
+[ 77%] Built target time_calculate_node
+[ 88%] [32mBuilding CXX object CMakeFiles/minimal_subscriber.dir/src/time_sub.cpp.o[0m
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscrition[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+    9 |     rclcpp::[01;31m[KSubscrition[m[K<time_msgs::msg::Time>::SharedPtr time_msg_subscriber_;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSubscription[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:25:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   25 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:1[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_topic_message(time_msgs::msg::Time_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:12:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct time_msgs::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct time_msgs::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   12 |         RCLCPP_INFO(this->get_logger(), "Received message: '%s'", msg->[01;31m[Kdata[m[K.c_str());
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Ktime_msg_subscriber_[m[K’
+   19 |         this->[01;31m[Ktime_msg_subscriber_[m[K = this->create_subscrition<time_msgs::msg::Time>(
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscrition[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   19 |         this->time_msg_subscriber_ = this->[01;31m[Kcreate_subscrition[m[K<time_msgs::msg::Time>(
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kcreate_subscription[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   19 |         this->time_msg_subscriber_ = this->create_subscrition<time_msgs::msg::Time[01;31m[K>[m[K(
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:20:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   20 |             [01;35m[K"set_alarm"[m[K,
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:22:74:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   22 |             std::bind(&MinimalSubscriber::subscribe_topic_message, this, [01;31m[K_1[m[K));
+      |                                                                          [01;31m[K^~[m[K
+      |                                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/minimal_subscriber.dir/build.make:63: CMakeFiles/minimal_subscriber.dir/src/time_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/minimal_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

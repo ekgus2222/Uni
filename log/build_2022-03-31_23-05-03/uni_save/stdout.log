@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarm/alarmclient.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable alarmserver[0m
+[100%] [32m[1mLinking CXX executable alarmclient[0m
+[100%] Built target alarmserver
+[100%] Built target alarmclient
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/lib/uni_save/alarmserver
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/lib/uni_save/alarmclient
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/package_run_dependencies/uni_save
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/parent_prefix_path/uni_save
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/ament_prefix_path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/environment/path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.bash
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.zsh
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/ament_index/resource_index/packages/uni_save
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/cmake/uni_saveConfig.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/cmake/uni_saveConfig-version.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/uni_save/share/uni_save/package.xml

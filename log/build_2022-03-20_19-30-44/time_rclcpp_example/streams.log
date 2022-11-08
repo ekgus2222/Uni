@@ -1,0 +1,23 @@
+[0.672s] Invoking command in '/home/dahyeon/dev_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_rclcpp_example -- -j12 -l12
+[0.722s] [100%] Built target time_example
+[0.755s] Invoked command in '/home/dahyeon/dev_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_rclcpp_example -- -j12 -l12
+[0.845s] Invoking command in '/home/dahyeon/dev_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_rclcpp_example
+[0.889s] -- Install configuration: ""
+[0.890s] -- Execute custom install script
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/lib/time_rclcpp_example/time_example
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/ament_index/resource_index/package_run_dependencies/time_rclcpp_example
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/ament_index/resource_index/parent_prefix_path/time_rclcpp_example
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/ament_prefix_path.sh
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/ament_prefix_path.dsv
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/path.sh
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/path.dsv
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.bash
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.sh
+[0.890s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.zsh
+[0.891s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.dsv
+[0.891s] -- Symlinking: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/package.dsv
+[0.891s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/ament_index/resource_index/packages/time_rclcpp_example
+[0.891s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/cmake/time_rclcpp_exampleConfig.cmake
+[0.892s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/cmake/time_rclcpp_exampleConfig-version.cmake
+[0.892s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/time_rclcpp_example/share/time_rclcpp_example/package.xml
+[0.928s] Invoked command in '/home/dahyeon/dev_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_rclcpp_example

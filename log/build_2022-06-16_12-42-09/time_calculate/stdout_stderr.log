@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target time_calculate_node[0m
+[ 44%] Built target get_gps
+[ 44%] Built target create_tcp
+make[2]: *** [CMakeFiles/time_calculate_node.dir/build.make:75: CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/time_calculate_node.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/minimal_subscriber.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

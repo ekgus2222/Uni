@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/create_tcp.dir/src/tcpNshared.cpp.o  -o create_tcp  -lpthread -lrt 

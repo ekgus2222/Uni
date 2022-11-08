@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Alarmserver::Alarmserver(rclcpp::NodeOptions const&)':
+alarmserver.cpp:(.text+0x4a9): undefined reference to `vtable for Alarmserver'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:137: alarmserver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

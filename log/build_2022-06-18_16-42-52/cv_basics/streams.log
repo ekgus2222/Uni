@@ -1,0 +1,24 @@
+[1.240s] Invoking command in '/home/dahyeon/dev_ws/build/cv_basics': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/cv_basics --editable --build-directory /home/dahyeon/dev_ws/build/cv_basics/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/cv_basics
+[1.448s] running develop
+[1.567s] running egg_info
+[1.567s] creating cv_basics.egg-info
+[1.568s] writing cv_basics.egg-info/PKG-INFO
+[1.568s] writing dependency_links to cv_basics.egg-info/dependency_links.txt
+[1.568s] writing entry points to cv_basics.egg-info/entry_points.txt
+[1.568s] writing requirements to cv_basics.egg-info/requires.txt
+[1.568s] writing top-level names to cv_basics.egg-info/top_level.txt
+[1.569s] writing manifest file 'cv_basics.egg-info/SOURCES.txt'
+[1.594s] reading manifest file 'cv_basics.egg-info/SOURCES.txt'
+[1.595s] writing manifest file 'cv_basics.egg-info/SOURCES.txt'
+[1.622s] running build_ext
+[1.622s] Creating /home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages/site.py
+[1.624s] Creating /home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages/cv-basics.egg-link (link to .)
+[1.625s] 
+[1.625s] Installed /home/dahyeon/dev_ws/build/cv_basics
+[1.625s] running install_data
+[1.625s] creating /home/dahyeon/dev_ws/install/cv_basics/share/ament_index
+[1.626s] creating /home/dahyeon/dev_ws/install/cv_basics/share/ament_index/resource_index
+[1.626s] creating /home/dahyeon/dev_ws/install/cv_basics/share/ament_index/resource_index/packages
+[1.626s] copying resource/cv_basics -> /home/dahyeon/dev_ws/install/cv_basics/share/ament_index/resource_index/packages
+[1.626s] copying package.xml -> /home/dahyeon/dev_ws/install/cv_basics/share/cv_basics
+[1.660s] Invoked command in '/home/dahyeon/dev_ws/build/cv_basics' returned '0': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/cv_basics --editable --build-directory /home/dahyeon/dev_ws/build/cv_basics/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/cv_basics

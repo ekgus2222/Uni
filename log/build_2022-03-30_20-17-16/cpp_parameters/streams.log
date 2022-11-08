@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/home/dahyeon/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/cpp_parameters -- -j12 -l12
+[0.049s] [35m[1mScanning dependencies of target cpp_parameters_client[0m
+[0.066s] [ 50%] Built target cpp_parameters_server
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_parameters_client.dir/src/cpp_parameters_client.cpp.o[0m
+[1.002s] [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:[m[K In function ‘[01m[Kvoid parameter_call_back(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[1.002s] [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:10:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.002s]    10 | void parameter_call_back([01;35m[Kstd::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>> future[m[K)
+[1.002s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.005s] [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.005s] [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:42:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[1.005s]    42 |   char* argv2 = [01;35m[K"10"[m[K;
+[1.005s]       |                 [01;35m[K^~~~[m[K
+[1.006s] [01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:42:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargv2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.007s]    42 |   char* [01;35m[Kargv2[m[K = "10";
+[1.007s]       |         [01;35m[K^~~~~[m[K
+[1.522s] [100%] [32m[1mLinking CXX executable cpp_parameters_client[0m
+[1.599s] [100%] Built target cpp_parameters_client
+[1.608s] Invoked command in '/home/dahyeon/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/cpp_parameters -- -j12 -l12
+[1.636s] Invoking command in '/home/dahyeon/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/cpp_parameters
+[1.642s] -- Install configuration: ""
+[1.643s] -- Execute custom install script
+[1.643s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/lib/cpp_parameters/cpp_parameters_server
+[1.643s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/lib/cpp_parameters/cpp_parameters_client
+[1.643s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.644s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.644s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.644s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.644s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.644s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.645s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.645s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.645s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.645s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.645s] -- Symlinking: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.652s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.652s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.652s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.652s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.654s] Invoked command in '/home/dahyeon/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/cpp_parameters

@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+Voice_recognition/__init__.py
+Voice_recognition/voice.py
+Voice_recognition.egg-info/PKG-INFO
+Voice_recognition.egg-info/SOURCES.txt
+Voice_recognition.egg-info/dependency_links.txt
+Voice_recognition.egg-info/entry_points.txt
+Voice_recognition.egg-info/requires.txt
+Voice_recognition.egg-info/top_level.txt
+Voice_recognition.egg-info/zip-safe

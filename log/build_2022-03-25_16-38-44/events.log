@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000866] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001229] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.001267] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.002002] (-) JobUnselected: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.002038] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.002067] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002097] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.002124] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.002149] (-) JobUnselected: {'identifier': 'srv_alarm_interface'}
+[0.002174] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.002198] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.002222] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.002247] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.002271] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.002295] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.002320] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.002344] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002371] (uni) JobQueued: {'identifier': 'uni', 'dependencies': OrderedDict([('srv_alarm_interface', '/home/dahyeon/dev_ws/install/srv_alarm_interface')])}
+[0.002430] (uni) JobStarted: {'identifier': 'uni'}
+[0.014117] (uni) JobProgress: {'identifier': 'uni', 'progress': 'cmake'}
+[0.014782] (uni) JobProgress: {'identifier': 'uni', 'progress': 'build'}
+[0.015384] (uni) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/uni', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/uni', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1538'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1141'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51b845c5f0a073795ed04acc623ded28'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dahyeon/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:44300'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1589,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', 'd882b4cbcb924c5a81b2c08e14c0ecda'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/587a3d9b_9946_461d_8828_20c7bea236a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea809b2c1.sock'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/uni'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51b845c5f0a073795ed04acc623ded28'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy')]), 'shell': False}
+[0.039560] (uni) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.070867] (uni) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100023] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.247401] (uni) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.252868] (uni) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.277798] (uni) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.280360] (uni) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300380] (-) TimerEvent: {}
+[0.373499] (uni) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400464] (-) TimerEvent: {}
+[0.412046] (uni) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.414150] (uni) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500564] (-) TimerEvent: {}
+[0.530948] (uni) StdoutLine: {'line': b'-- Found srv_alarm_interface: 0.6.0 (/home/dahyeon/dev_ws/install/srv_alarm_interface/share/srv_alarm_interface/cmake)\n'}
+[0.563940] (uni) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.600659] (-) TimerEvent: {}
+[0.632770] (uni) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.634432] (uni) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.634679] (uni) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni/include\n'}
+[0.634766] (uni) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.636160] (uni) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.636260] (uni) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.636795] (uni) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.637483] (uni) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.638042] (uni) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.639504] (uni) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.639583] (uni) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.640108] (uni) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.643071] (uni) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.654747] (uni) StdoutLine: {'line': b'-- Generating done\n'}
+[0.655987] (uni) StdoutLine: {'line': b'-- Build files have been written to: /home/dahyeon/dev_ws/build/uni\n'}
+[0.673841] (uni) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target alarmserver\x1b[0m\n'}
+[0.673986] (uni) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target alarmclient\x1b[0m\n'}
+[0.692310] (uni) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o\x1b[0m\n'}
+[0.692587] (uni) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarm/alarmclient.cpp.o\x1b[0m\n'}
+[0.700781] (-) TimerEvent: {}
+[0.801048] (-) TimerEvent: {}
+[0.901369] (-) TimerEvent: {}
+[1.001696] (-) TimerEvent: {}
+[1.102003] (-) TimerEvent: {}
+[1.202278] (-) TimerEvent: {}
+[1.302611] (-) TimerEvent: {}
+[1.402907] (-) TimerEvent: {}
+[1.503180] (-) TimerEvent: {}
+[1.603427] (-) TimerEvent: {}
+[1.703739] (-) TimerEvent: {}
+[1.773789] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string Json_time(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.773951] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:38:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchunk\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.774017] (uni) StderrLine: {'line': b'   38 |   reader.parse(\x1b[01;31m\x1b[Kchunk\x1b[m\x1b[K, root);\n'}
+[1.774072] (uni) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.774384] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.774497] (uni) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<Last.asString()<<endl;\n'}
+[1.774550] (uni) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.774603] (uni) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[1.774946] (uni) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.775022] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.775076] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.775128] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.775176] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/include/alarm/alarmserver.hpp:4\x1b[m\x1b[K,\n'}
+[1.775224] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:1\x1b[m\x1b[K:\n'}
+[1.775271] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.775318] (uni) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;  /// Linked to standard output\n'}
+[1.775364] (uni) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.775416] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:53:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kendl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.775465] (uni) StderrLine: {'line': b'   53 |     cout<<Last.asString()<<\x1b[01;31m\x1b[Kendl\x1b[m\x1b[K;\n'}
+[1.775511] (uni) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.775557] (uni) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kstd::endl\x1b[m\x1b[K\n'}
+[1.775602] (uni) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[1.775648] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.775699] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.775745] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.775790] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.775835] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/include/alarm/alarmserver.hpp:4\x1b[m\x1b[K,\n'}
+[1.775879] (uni) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:1\x1b[m\x1b[K:\n'}
+[1.775925] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:599:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.775971] (uni) StderrLine: {'line': b'  599 |     \x1b[01;36m\x1b[Kendl\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>& __os)\n'}
+[1.776017] (uni) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.776063] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:60:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.776110] (uni) StderrLine: {'line': b'   60 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.776156] (uni) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.776201] (uni) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:34:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kstr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.776252] (uni) StderrLine: {'line': b'   34 | std::string Json_time(\x1b[01;35m\x1b[Kstd::string str\x1b[m\x1b[K)\n'}
+[1.776297] (uni) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.803831] (-) TimerEvent: {}
+[1.904107] (-) TimerEvent: {}
+[2.004351] (-) TimerEvent: {}
+[2.104627] (-) TimerEvent: {}
+[2.131875] (uni) StderrLine: {'line': b'make[2]: *** [CMakeFiles/alarmserver.dir/build.make:63: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o] Error 1\n'}
+[2.132080] (uni) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2\n'}
+[2.132180] (uni) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.204742] (-) TimerEvent: {}
+[2.305049] (-) TimerEvent: {}
+[2.405289] (-) TimerEvent: {}
+[2.505530] (-) TimerEvent: {}
+[2.531979] (uni) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable alarmclient\x1b[0m\n'}
+[2.605647] (-) TimerEvent: {}
+[2.665136] (uni) StdoutLine: {'line': b'[ 75%] Built target alarmclient\n'}
+[2.665716] (uni) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.667270] (uni) CommandEnded: {'returncode': 2}
+[2.693473] (uni) JobEnded: {'identifier': 'uni', 'rc': 2}
+[2.704089] (-) EventReactorShutdown: {}

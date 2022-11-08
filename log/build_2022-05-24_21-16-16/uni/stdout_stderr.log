@@ -1,0 +1,23 @@
+[ 85%] Built target alarm_change_client
+[100%] Built target alarmclient
+[100%] Built target alarmserver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/lib/uni/alarmserver
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/lib/uni/alarmclient
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/lib/uni/alarm_change_client
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/ament_index/resource_index/package_run_dependencies/uni
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/ament_index/resource_index/parent_prefix_path/uni
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/environment/path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/environment/path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/local_setup.bash
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/local_setup.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/local_setup.zsh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/uni/share/uni/package.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/ament_index/resource_index/packages/uni
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/cmake/uniConfig.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/cmake/uniConfig-version.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/uni/share/uni/package.xml

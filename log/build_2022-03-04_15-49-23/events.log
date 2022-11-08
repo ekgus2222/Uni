@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000104] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000141] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000155] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.010655] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.015188] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.015290] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/dahyeon/dev_ws/src/my_package', '-DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/my_package'], 'cwd': '/home/dahyeon/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1254'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:43637'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1310,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1310'), ('INVOCATION_ID', 'a31ad0bb71314fbfbc7e178517772b3f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50024985-f33a-4fd1-a084-5eb8ec23f9fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.032729] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.034276] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.035969] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1254'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:43637'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1310,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1310'), ('INVOCATION_ID', 'a31ad0bb71314fbfbc7e178517772b3f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50024985-f33a-4fd1-a084-5eb8ec23f9fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099520] (-) TimerEvent: {}
+[0.158113] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.163506] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.169249] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.181749] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.182437] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.187023] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199631] (-) TimerEvent: {}
+[0.238925] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.240183] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.252970] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.262132] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.267726] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.268920] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.285828] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.299716] (-) TimerEvent: {}
+[0.302998] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[0.303204] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtle_teleop_key\n'}
+[0.304365] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[0.311460] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[0.314363] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim_node\n'}
+[0.315816] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.317206] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.332151] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.332350] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.332462] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.341111] (turtlesim) CommandEnded: {'returncode': 0}
+[0.362665] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.372618] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.373069] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375640] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399785] (-) TimerEvent: {}
+[0.428069] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.429187] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.429847] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.435495] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dahyeon/dev_ws/build/turtlesim'], 'cwd': '/home/dahyeon/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1254'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:43637'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1310,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1310'), ('INVOCATION_ID', 'a31ad0bb71314fbfbc7e178517772b3f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50024985-f33a-4fd1-a084-5eb8ec23f9fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.442894] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.443727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.443940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.444130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.444320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.444403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.444518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.444641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.444693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.444749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.444841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.444894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.444953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.445117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.445185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.445251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.445304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.445396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.445469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.445655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.445751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.445813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.445869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.445958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.446014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.446073] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.446126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.446173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.446220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.446266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.446316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.446369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.446420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.446467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.446523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.446570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.446622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.446673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.446747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.446797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.446896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.447043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.447121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.447175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.447223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.447269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.447319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.447372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.447426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.447496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.447560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.447631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.447700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.447751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.447822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.447871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.448004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.448303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.448357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.448505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.448559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.448611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.448844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.448890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.448937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.448989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.449038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.449196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.449328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.449492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.449602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.449774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.449822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.449874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.450028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.450074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.450124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.450176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.450223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.450292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.450340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.450390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.450439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.450486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.450532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.450585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.450638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.450690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.450737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.450784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.450836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.450888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.450966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.451054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.451156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.451313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.451471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.451614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.451779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.451943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.451999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.452052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.452099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.452146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.452196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.452250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.452302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[0.452348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.452394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.452440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.452510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.452565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.452637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[0.452691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.452740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.452788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.452845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.452894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.452943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.452990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.453041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[0.453098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.453149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.453255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[0.453319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.453371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.453443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.453492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.453584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.453634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.453681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.453730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.453783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.453833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.453879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.453927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.453982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.454029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.454076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.454127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.454206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[0.454254] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[0.454300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[0.454350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.454397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.454442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.454488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.454534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.454580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.454626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.454672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.454718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.454764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.454811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.454858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.454904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.454951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.454997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.455042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.455091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.455138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.455185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.455231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.455277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.455324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.455370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.455416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.455463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.455509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.455557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.455603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[0.478200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[0.478379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.478478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[0.478537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.478596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[0.478716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[0.478792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[0.478858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[0.478914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[0.479040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[0.479093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[0.479143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[0.479195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.479247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[0.479296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.479347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.479402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[0.479455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.479503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[0.479551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.479602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.479656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[0.479729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.480699] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.481664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.482484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[0.482769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.483025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.483112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.483240] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.483330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.483443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.483550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.483655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.483759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.483864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.483966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.484054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.484107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.484154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.484205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.484256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.484305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.484352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.484399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.484445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.484494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.484549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.484600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.484653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.484700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.484745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.484794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.485281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.486454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.487572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.488726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.488844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[0.489291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.489394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.489492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.489564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.489622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.489678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.489724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[0.489915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.490171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.490425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.490501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.490605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.490705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.490783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.490833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.490882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.490934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.490983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.491033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.491216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.491905] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.492284] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.492586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.492666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.493111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.493237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.493722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.493811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.494252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.494548] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.494740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.494823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.495267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.495361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.495459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.495637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.495754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.495831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.495882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.495933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.495986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.496039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.496093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.496143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/dahyeon/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.497555] (turtlesim) CommandEnded: {'returncode': 0}
+[0.499841] (-) TimerEvent: {}
+[0.516066] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.516341] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.599943] (-) TimerEvent: {}
+[0.612241] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[0.673303] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.700047] (-) TimerEvent: {}
+[0.732488] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.733452] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.733589] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dahyeon/dev_ws/src/my_package/include>\n'}
+[0.733646] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.734267] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.734321] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.735096] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.735948] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.736001] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.736431] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.738074] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.740272] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.740856] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/dahyeon/dev_ws/build/my_package\n'}
+[0.743139] (my_package) CommandEnded: {'returncode': 0}
+[0.743541] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.743695] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/my_package', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1254'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:43637'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1310,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1310'), ('INVOCATION_ID', 'a31ad0bb71314fbfbc7e178517772b3f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50024985-f33a-4fd1-a084-5eb8ec23f9fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.769661] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_node\x1b[0m\n'}
+[0.776418] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.800139] (-) TimerEvent: {}
+[0.804694] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[0.837650] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.847063] (my_package) CommandEnded: {'returncode': 0}
+[0.863097] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.863322] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dahyeon/dev_ws/build/my_package'], 'cwd': '/home/dahyeon/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1254'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:43637'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1310,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1310'), ('INVOCATION_ID', 'a31ad0bb71314fbfbc7e178517772b3f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50024985-f33a-4fd1-a084-5eb8ec23f9fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.870889] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.871090] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/lib/my_package/my_node\n'}
+[0.871206] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.871312] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.871519] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.871654] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.871719] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.871797] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.871864] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.871940] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.872018] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.872113] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.872365] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.872442] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.872510] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.872576] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.872640] (my_package) StdoutLine: {'line': b'-- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.xml\n'}
+[0.874173] (my_package) CommandEnded: {'returncode': 0}
+[0.898384] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.898927] (-) EventReactorShutdown: {}

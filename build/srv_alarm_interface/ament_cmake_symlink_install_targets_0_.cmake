@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dahyeon/dev_ws/build/srv_alarm_interface/libsrv_alarm_interface__rosidl_typesupport_fastrtps_c.so" "TARGETS" "srv_alarm_interface__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

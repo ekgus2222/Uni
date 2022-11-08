@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/get_gps.dir/src/homeTCP.cpp.o  -o get_gps  -lpthread -lrt 

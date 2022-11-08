@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dahyeon/dev_ws/src/uni/include/json/jsondata.hpp
+string
+-
+
+/home/dahyeon/dev_ws/src/uni/src/jsondata.cpp
+json/jsondata.hpp
+/home/dahyeon/dev_ws/src/uni/src/json/jsondata.hpp
+string
+-
+curl/curl.h
+-
+jsoncpp/json/json.h
+-
+string.h
+-
+

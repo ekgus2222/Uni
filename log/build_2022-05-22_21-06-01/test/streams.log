@@ -1,0 +1,19 @@
+[0.701s] Invoking command in '/home/dahyeon/dev_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/test -- -j12 -l12
+[0.749s] [35m[1mScanning dependencies of target alarmserver[0m
+[0.772s] [ 33%] Built target alarmclient
+[0.776s] [ 50%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o[0m
+[0.776s] [ 83%] Built target alarm_change_client
+[2.071s] [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:[m[K In constructor ‘[01m[KAlarmserver::Alarmserver(const rclcpp::NodeOptions&)[m[K’:
+[2.071s] [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:24:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.071s]    24 |         std::bind(&Alarmserver::parameter_call_back, this, std::placeholders::_1)[01;35m[K)[m[K;
+[2.071s]       |                                                                                  [01;35m[K^[m[K
+[2.071s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.071s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.072s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.072s]                  from [01m[K/home/dahyeon/dev_ws/src/test/include/alarm/alarmserver.hpp:4[m[K,
+[2.072s]                  from [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:1[m[K:
+[2.072s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.072s]   866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+[2.072s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.149s] [100%] [32m[1mLinking CXX executable alarmserver[0m
+[3.276s] [100%] Built target alarmserver

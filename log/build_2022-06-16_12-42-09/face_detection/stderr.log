@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/re.py", line 294, in _compile
+    return _cache[type(pattern), pattern, flags]
+KeyError: (<class 'str'>, '([\\d.]+)\\s*\\(IronPython\\s*[\\d.]+\\s*\\(([\\d.]+)\\) on ([\\w.]+ [\\d.]+(?: \\(\\d+-bit\\))?)\\)', 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 33, in <module>
+    import platform
+  File "/usr/lib/python3.8/platform.py", line 959, in <module>
+    _ironpython26_sys_version_parser = re.compile(
+  File "/usr/lib/python3.8/re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.8/re.py", line 294, in _compile
+    return _cache[type(pattern), pattern, flags]
+KeyboardInterrupt

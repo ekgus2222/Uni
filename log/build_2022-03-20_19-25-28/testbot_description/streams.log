@@ -1,0 +1,2 @@
+[0.612s] Invoking command in '/home/dahyeon/dev_ws/build/testbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/testbot_description -- -j12 -l12
+[0.877s] Invoked command in '/home/dahyeon/dev_ws/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/testbot_description -- -j12 -l12

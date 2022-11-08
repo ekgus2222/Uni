@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating Voice_recognition.egg-info
+writing Voice_recognition.egg-info/PKG-INFO
+writing dependency_links to Voice_recognition.egg-info/dependency_links.txt
+writing entry points to Voice_recognition.egg-info/entry_points.txt
+writing requirements to Voice_recognition.egg-info/requires.txt
+writing top-level names to Voice_recognition.egg-info/top_level.txt
+writing manifest file 'Voice_recognition.egg-info/SOURCES.txt'
+reading manifest file 'Voice_recognition.egg-info/SOURCES.txt'
+writing manifest file 'Voice_recognition.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/Voice_recognition/lib/python3.8/site-packages/site.py
+Creating /home/dahyeon/dev_ws/install/Voice_recognition/lib/python3.8/site-packages/Voice-recognition.egg-link (link to .)
+Installing stt_tts_sub script to /home/dahyeon/dev_ws/install/Voice_recognition/lib/Voice_recognition
+
+Installed /home/dahyeon/dev_ws/build/Voice_recognition
+running install_data
+creating /home/dahyeon/dev_ws/install/Voice_recognition/share/ament_index
+creating /home/dahyeon/dev_ws/install/Voice_recognition/share/ament_index/resource_index
+creating /home/dahyeon/dev_ws/install/Voice_recognition/share/ament_index/resource_index/packages
+error: can't copy 'resource/Voice_recognition': doesn't exist or not a regular file

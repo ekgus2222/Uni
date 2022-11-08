@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target alarmclient[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarm_request/alarmclient.cpp.o[0m
+[ 75%] Built target alarmserver
+[100%] [32m[1mLinking CXX executable alarmclient[0m
+[100%] Built target alarmclient
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dahyeon/dev_ws/install/test/lib/test/alarmserver
+-- Symlinking: /home/dahyeon/dev_ws/install/test/lib/test/alarmclient
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/environment/ament_prefix_path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/environment/path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/environment/path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/local_setup.bash
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/local_setup.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/local_setup.zsh
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/package.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/packages/test
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/cmake/testConfig.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/cmake/testConfig-version.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/package.xml

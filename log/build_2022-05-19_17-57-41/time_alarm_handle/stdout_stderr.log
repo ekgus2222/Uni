@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating time_alarm_handle.egg-info
+writing time_alarm_handle.egg-info/PKG-INFO
+writing dependency_links to time_alarm_handle.egg-info/dependency_links.txt
+writing entry points to time_alarm_handle.egg-info/entry_points.txt
+writing requirements to time_alarm_handle.egg-info/requires.txt
+writing top-level names to time_alarm_handle.egg-info/top_level.txt
+writing manifest file 'time_alarm_handle.egg-info/SOURCES.txt'
+reading manifest file 'time_alarm_handle.egg-info/SOURCES.txt'
+writing manifest file 'time_alarm_handle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages/site.py
+Creating /home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages/time-alarm-handle.egg-link (link to .)
+Installing time_alarm_handle script to /home/dahyeon/dev_ws/install/time_alarm_handle/lib/time_alarm_handle
+
+Installed /home/dahyeon/dev_ws/build/time_alarm_handle
+running install_data
+creating /home/dahyeon/dev_ws/install/time_alarm_handle/share/ament_index
+creating /home/dahyeon/dev_ws/install/time_alarm_handle/share/ament_index/resource_index
+creating /home/dahyeon/dev_ws/install/time_alarm_handle/share/ament_index/resource_index/packages
+copying resource/time_alarm_handle -> /home/dahyeon/dev_ws/install/time_alarm_handle/share/ament_index/resource_index/packages
+copying package.xml -> /home/dahyeon/dev_ws/install/time_alarm_handle/share/time_alarm_handle

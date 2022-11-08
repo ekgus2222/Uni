@@ -1,0 +1,56 @@
+[0.613s] Invoking command in '/home/dahyeon/dev_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/tf2_rclcpp_example
+[0.865s] -- The C compiler identification is GNU 9.4.0
+[0.865s] -- The CXX compiler identification is GNU 9.4.0
+[0.865s] -- Check for working C compiler: /usr/bin/cc
+[0.865s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.865s] -- Detecting C compiler ABI info
+[0.865s] -- Detecting C compiler ABI info - done
+[0.865s] -- Detecting C compile features
+[0.865s] -- Detecting C compile features - done
+[0.866s] -- Check for working CXX compiler: /usr/bin/c++
+[0.894s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.895s] -- Detecting CXX compiler ABI info
+[1.000s] -- Detecting CXX compiler ABI info - done
+[1.015s] -- Detecting CXX compile features
+[1.016s] -- Detecting CXX compile features - done
+[1.018s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.291s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.345s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.438s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.474s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.694s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.697s] -- Looking for pthread.h
+[1.755s] -- Looking for pthread.h - found
+[1.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.814s] -- Looking for pthread_create in pthreads
+[1.854s] -- Looking for pthread_create in pthreads - not found
+[1.854s] -- Looking for pthread_create in pthread
+[1.906s] -- Looking for pthread_create in pthread - found
+[1.907s] -- Found Threads: TRUE  
+[2.024s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.037s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.047s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.056s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.060s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.428s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.492s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.493s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.493s] -- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/ros2-seminar-examples/tf2_rclcpp_example/include
+[2.493s] -- Configured cppcheck exclude dirs and/or files: 
+[2.494s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.494s] -- Configured cpplint exclude dirs and/or files: 
+[2.495s] -- Added test 'lint_cmake' to check CMake code style
+[2.495s] -- Added test 'uncrustify' to check C / C++ code style
+[2.495s] -- Configured uncrustify additional arguments: 
+[2.496s] -- Added test 'xmllint' to check XML markup files
+[2.498s] -- Configuring done
+[2.515s] -- Generating done
+[2.516s] -- Build files have been written to: /home/dahyeon/dev_ws/build/tf2_rclcpp_example

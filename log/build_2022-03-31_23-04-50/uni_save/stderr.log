@@ -1,0 +1,7 @@
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:63: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmserver.dir/all] Interrupt
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmclient.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

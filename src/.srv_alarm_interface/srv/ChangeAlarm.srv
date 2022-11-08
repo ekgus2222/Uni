@@ -1,0 +1,6 @@
+# Request
+int8 change_option
+string change_time
+---
+# Response
+string change_response

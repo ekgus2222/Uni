@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/dahyeon/dev_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/test -- -j12 -l12
+[0.044s] [35m[1mScanning dependencies of target alarmserver[0m
+[0.057s] [ 66%] Built target alarm_change_client
+[0.057s] [ 66%] Built target alarmclient
+[0.061s] [ 83%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o[0m
+[0.978s] [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:[m[K In constructor ‘[01m[KAlarmserver::Alarmserver(const rclcpp::NodeOptions&)[m[K’:
+[0.978s] [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:24:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[0.978s]    24 |         std::bind(&Alarmserver::parameter_call_back, this, std::placeholders::_1)[01;35m[K)[m[K;
+[0.978s]       |                                                                                  [01;35m[K^[m[K
+[0.978s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.978s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.978s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.978s]                  from [01m[K/home/dahyeon/dev_ws/src/test/include/alarm/alarmserver.hpp:4[m[K,
+[0.978s]                  from [01m[K/home/dahyeon/dev_ws/src/test/src/alarm/alarmserver.cpp:1[m[K:
+[0.978s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[0.978s]   866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+[0.978s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.811s] [100%] [32m[1mLinking CXX executable alarmserver[0m
+[1.900s] [100%] Built target alarmserver
+[1.908s] Invoked command in '/home/dahyeon/dev_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/test -- -j12 -l12
+[1.936s] Invoking command in '/home/dahyeon/dev_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/test
+[1.942s] -- Install configuration: ""
+[1.942s] -- Execute custom install script
+[1.942s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/lib/test/alarmserver
+[1.943s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/lib/test/alarmclient
+[1.943s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/lib/test/alarm_change_client
+[1.943s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[1.943s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[1.943s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/environment/ament_prefix_path.sh
+[1.944s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[1.944s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/environment/path.sh
+[1.944s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/environment/path.dsv
+[1.944s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/local_setup.bash
+[1.944s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/local_setup.sh
+[1.945s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/local_setup.zsh
+[1.945s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/local_setup.dsv
+[1.945s] -- Symlinking: /home/dahyeon/dev_ws/install/test/share/test/package.dsv
+[1.952s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/ament_index/resource_index/packages/test
+[1.952s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/cmake/testConfig.cmake
+[1.952s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/cmake/testConfig-version.cmake
+[1.953s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/test/share/test/package.xml
+[1.954s] Invoked command in '/home/dahyeon/dev_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/test

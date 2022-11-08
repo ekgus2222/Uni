@@ -1,0 +1,16 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for my-first-ros-rclpy-pkg 0.6.0 (/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing ros2env.egg-info/PKG-INFO
+writing dependency_links to ros2env.egg-info/dependency_links.txt
+writing entry points to ros2env.egg-info/entry_points.txt
+writing requirements to ros2env.egg-info/requires.txt
+writing top-level names to ros2env.egg-info/top_level.txt
+reading manifest file 'ros2env.egg-info/SOURCES.txt'
+writing manifest file 'ros2env.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+
+Installed /home/dahyeon/dev_ws/build/ros2env
+running install_data

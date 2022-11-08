@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/home/dahyeon/dev_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/test
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.236s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Found srv_alarm_interface: 0.6.0 (/home/dahyeon/dev_ws/install/srv_alarm_interface/share/srv_alarm_interface/cmake)
+[0.544s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.630s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.632s] -- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/test/include
+[0.632s] -- Configured cppcheck exclude dirs and/or files: 
+[0.633s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.634s] -- Configured cpplint exclude dirs and/or files: 
+[0.635s] -- Added test 'lint_cmake' to check CMake code style
+[0.636s] -- Added test 'uncrustify' to check C / C++ code style
+[0.636s] -- Configured uncrustify additional arguments: 
+[0.637s] -- Added test 'xmllint' to check XML markup files
+[0.640s] -- Configuring done
+[0.649s] -- Generating done
+[0.650s] -- Build files have been written to: /home/dahyeon/dev_ws/build/test
+[0.654s] Invoked command in '/home/dahyeon/dev_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/test
+[0.656s] Invoking command in '/home/dahyeon/dev_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/test -- -j12 -l12
+[0.683s] [35m[1mScanning dependencies of target alarmclient[0m
+[0.683s] [35m[1mScanning dependencies of target alarmserver[0m
+[0.729s] [ 50%] [32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarm_request/alarmclient.cpp.o[0m
+[0.729s] [ 50%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o[0m
+[0.811s] [01m[K/home/dahyeon/dev_ws/src/test/src/alarm_request/alarmclient.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kalarm_change/alarmclient.hpp: No such file or directory
+[0.811s]     2 | #include [01;31m[K"alarm_change/alarmclient.hpp"[m[K
+[0.812s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.812s] compilation terminated.
+[0.813s] make[2]: *** [CMakeFiles/alarmclient.dir/build.make:63: CMakeFiles/alarmclient.dir/src/alarm_request/alarmclient.cpp.o] Error 1
+[0.813s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmclient.dir/all] Error 2
+[0.813s] make[1]: *** Waiting for unfinished jobs....
+[2.319s] [ 75%] [32m[1mLinking CXX executable alarmserver[0m
+[2.435s] [ 75%] Built target alarmserver
+[2.436s] make: *** [Makefile:141: all] Error 2
+[2.438s] Invoked command in '/home/dahyeon/dev_ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/test -- -j12 -l12

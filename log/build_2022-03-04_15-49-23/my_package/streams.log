@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/dahyeon/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/my_package
+[0.163s] -- The C compiler identification is GNU 9.3.0
+[0.262s] -- The CXX compiler identification is GNU 9.3.0
+[0.269s] -- Check for working C compiler: /usr/bin/cc
+[0.316s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.317s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.430s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.516s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.516s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.673s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.732s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.733s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dahyeon/dev_ws/src/my_package/include>
+[0.734s] -- Configured cppcheck exclude dirs and/or files: 
+[0.734s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.734s] -- Configured cpplint exclude dirs and/or files: 
+[0.735s] -- Added test 'lint_cmake' to check CMake code style
+[0.736s] -- Added test 'uncrustify' to check C / C++ code style
+[0.736s] -- Configured uncrustify additional arguments: 
+[0.736s] -- Added test 'xmllint' to check XML markup files
+[0.738s] -- Configuring done
+[0.740s] -- Generating done
+[0.741s] -- Build files have been written to: /home/dahyeon/dev_ws/build/my_package
+[0.743s] Invoked command in '/home/dahyeon/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dahyeon/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/my_package
+[0.745s] Invoking command in '/home/dahyeon/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_package -- -j12 -l12
+[0.770s] [35m[1mScanning dependencies of target my_node[0m
+[0.776s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.805s] [100%] [32m[1mLinking CXX executable my_node[0m
+[0.838s] [100%] Built target my_node
+[0.847s] Invoked command in '/home/dahyeon/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_package -- -j12 -l12
+[0.864s] Invoking command in '/home/dahyeon/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/my_package
+[0.871s] -- Install configuration: ""
+[0.871s] -- Installing: /home/dahyeon/dev_ws/install/my_package/lib/my_package/my_node
+[0.871s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.871s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.871s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.sh
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.bash
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.sh
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.dsv
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.872s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.873s] -- Installing: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.xml
+[0.875s] Invoked command in '/home/dahyeon/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/my_package

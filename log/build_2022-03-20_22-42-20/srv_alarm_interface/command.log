@@ -1,0 +1,2 @@
+Invoking command in '/home/dahyeon/dev_ws/build/srv_alarm_interface': /usr/bin/cmake /home/dahyeon/dev_ws/src/srv_alarm_interface -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/srv_alarm_interface
+Invoked command in '/home/dahyeon/dev_ws/build/srv_alarm_interface' returned '1': /usr/bin/cmake /home/dahyeon/dev_ws/src/srv_alarm_interface -DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/srv_alarm_interface

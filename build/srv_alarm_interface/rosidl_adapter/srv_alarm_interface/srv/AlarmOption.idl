@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from srv_alarm_interface/srv/AlarmOption.srv
+// generated code does not contain a copyright notice
+
+
+module srv_alarm_interface {
+  module srv {
+    module AlarmOption_Request_Constants {
+      const int8 ALARM_TIME = 1;
+      const int8 TRANSPORT_TIME = 2;
+    };
+    @verbatim (language="comment", text=
+      " Constants")
+    struct AlarmOption_Request {
+      @verbatim (language="comment", text=
+        " Request")
+      int8 alarm_time_request;
+
+      int8 transport_time_request;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct AlarmOption_Response {
+      @verbatim (language="comment", text=
+        " alarm_time")
+      string alarm_time_response;
+
+      @verbatim (language="comment", text=
+        " transport(subway/bus) | place | time")
+      string transport_time_response;
+    };
+  };
+};

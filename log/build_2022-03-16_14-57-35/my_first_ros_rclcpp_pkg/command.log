@@ -1,0 +1,2 @@
+Invoking command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12
+Invoked command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12

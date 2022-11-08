@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000716] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000765] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000791] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000816] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.011815] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.012157] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg'], 'cwd': '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1375'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:41456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1420,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1420'), ('INVOCATION_ID', '0a1453fa13e64346b48986eba34a0989'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-314602dcd4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f7b1f1-202c-448b-9a28-f3bb0e7f7a82'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100020] (-) TimerEvent: {}
+[0.157520] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.200174] (-) TimerEvent: {}
+[0.251948] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.258761] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300268] (-) TimerEvent: {}
+[0.303870] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.305175] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.350975] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.359395] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359769] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.362335] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400437] (-) TimerEvent: {}
+[0.412687] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.413436] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.465337] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.473696] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.474053] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.477256] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.497381] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.497591] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500482] (-) TimerEvent: {}
+[0.600632] (-) TimerEvent: {}
+[0.634058] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.662713] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700733] (-) TimerEvent: {}
+[0.710601] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.717951] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.776288] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.795680] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800797] (-) TimerEvent: {}
+[0.863639] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900896] (-) TimerEvent: {}
+[0.919656] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.921838] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.923489] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.968393] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.968644] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000988] (-) TimerEvent: {}
+[1.016100] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.016248] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.053181] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.053409] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.101075] (-) TimerEvent: {}
+[1.101683] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.102703] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201167] (-) TimerEvent: {}
+[1.242224] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.301266] (-) TimerEvent: {}
+[1.302003] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.302916] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.303083] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.303149] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.303916] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.303976] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.304935] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.306252] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.306355] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.306971] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.310417] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.317585] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.318630] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg\n'}
+[1.323648] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[1.324168] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[1.324696] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1375'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:41456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1420,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1420'), ('INVOCATION_ID', '0a1453fa13e64346b48986eba34a0989'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-314602dcd4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f7b1f1-202c-448b-9a28-f3bb0e7f7a82'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.351499] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target helloworld_publisher\x1b[0m\n'}
+[1.351646] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target helloworld_subscriber\x1b[0m\n'}
+[1.364573] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o\x1b[0m\n'}
+[1.391700] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp..hpp: No such file or directory\n'}
+[1.391841] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp..hpp"\x1b[m\x1b[K\n'}
+[1.391896] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.391944] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.392498] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/helloworld_subscriber.dir/build.make:63: CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o] Error 1\n'}
+[1.392729] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/helloworld_subscriber.dir/all] Error 2\n'}
+[1.392802] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.401326] (-) TimerEvent: {}
+[1.441213] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o\x1b[0m\n'}
+[1.501456] (-) TimerEvent: {}
+[1.516073] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b"\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:9:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating ' character\n"}
+[1.516233] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b"    9 | using namespace std::chrono_literals\x1b[01;35m\x1b[K'\x1b[m\x1b[K\n"}
+[1.516298] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.516360] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b"\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:9:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating ' character\n"}
+[1.601579] (-) TimerEvent: {}
+[1.701826] (-) TimerEvent: {}
+[1.802090] (-) TimerEvent: {}
+[1.902343] (-) TimerEvent: {}
+[2.002596] (-) TimerEvent: {}
+[2.102856] (-) TimerEvent: {}
+[2.203114] (-) TimerEvent: {}
+[2.303370] (-) TimerEvent: {}
+[2.306504] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:9:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kclass\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.306633] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b"    9 | using namespace std::chrono_literals\x1b[01;31m\x1b[K'\x1b[m\x1b[K\n"}
+[2.306688] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.306737] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.306783] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   10 | \n'}
+[2.306829] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   11 | \x1b[32m\x1b[Kclass\x1b[m\x1b[K HelloworldPublusher : public rclcpp::Node\n'}
+[2.306875] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      | \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K                                \n'}
+[2.306921] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:14:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KHelloworldPublisher\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.306967] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   14 |  HelloworldPublisher(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.307058] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.312002] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint HelloworldPublusher::HelloworldPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.312123] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[2.312200] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   15 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("helloworld_publisher"), count_(0)\n'}
+[2.312268] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.312914] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:21:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.312995] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   21 |    1s, \x1b[01;31m\x1b[Kst\x1b[m\x1b[K::bind(&HelloworldPublusher::publish_helloworld_msg, this));\n'}
+[2.313049] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.313101] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:23:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[2.313153] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   23 |  \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.313204] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.319476] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.319616] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:42:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHelloworldPublisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KHelloworldPublusher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.319680] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   42 |  auto node = std::make_shared<\x1b[01;31m\x1b[KHelloworldPublisher\x1b[m\x1b[K>();\n'}
+[2.319731] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.319781] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                               \x1b[32m\x1b[KHelloworldPublusher\x1b[m\x1b[K\n'}
+[2.319831] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:42:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.319888] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   42 |  auto node = std::make_shared<HelloworldPublisher>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.319939] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.319989] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.320039] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[2.320088] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.320143] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'  714 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.320193] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.320241] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.320291] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:42:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.320349] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   42 |  auto node = std::make_shared<HelloworldPublisher>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.320433] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.403479] (-) TimerEvent: {}
+[2.503732] (-) TimerEvent: {}
+[2.603996] (-) TimerEvent: {}
+[2.703074] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/helloworld_publisher.dir/build.make:63: CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o] Error 1\n'}
+[2.703408] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/helloworld_publisher.dir/all] Error 2\n'}
+[2.703614] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.704057] (-) TimerEvent: {}
+[2.706249] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 2}
+[2.735093] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 2}
+[2.745649] (-) EventReactorShutdown: {}

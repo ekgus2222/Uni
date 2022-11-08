@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for my-first-ros-rclpy-pkg 0.6.0 (/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg)
+  self.local_index = Environment(self.shadow_path + sys.path)

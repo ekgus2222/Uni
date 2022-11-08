@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/launch/testbot.launch.py
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/rviz/testbot.rviz
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/urdf/testbot.urdf
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/package_run_dependencies/testbot_description
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/parent_prefix_path/testbot_description
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.bash
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.zsh
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/packages/testbot_description
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig-version.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.xml

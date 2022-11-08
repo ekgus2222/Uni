@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target get_gps[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/get_gps.dir/src/homeTCP.cpp.o[0m
+[ 42%] Built target create_tcp
+[ 85%] Built target time_calculate_node
+[100%] [32m[1mLinking CXX executable get_gps[0m

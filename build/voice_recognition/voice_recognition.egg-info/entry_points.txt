@@ -1,0 +1,3 @@
+[console_scripts]
+stt_tts_sub = voice_recognition.stt_tts:main
+

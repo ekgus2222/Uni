@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target time_calculate_node[0m
+[ 22%] Built target get_gps
+[ 44%] Built target create_tcp
+[ 66%] Built target minimal_subscriber
+[ 77%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable time_calculate_node[0m
+[100%] Built target time_calculate_node

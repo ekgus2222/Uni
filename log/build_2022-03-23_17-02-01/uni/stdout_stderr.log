@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target alarmserver[0m
+[35m[1mScanning dependencies of target alarmclient[0m
+make[2]: *** No rule to make target '/home/dahyeon/dev_ws/src/uni/src/alarmclient.cpp', needed by 'CMakeFiles/alarmclient.dir/src/alarmclient.cpp.o'.  Stop.
+make[2]: *** No rule to make target '/home/dahyeon/dev_ws/src/uni/src/alarmserver.cpp', needed by 'CMakeFiles/alarmserver.dir/src/alarmserver.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmclient.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

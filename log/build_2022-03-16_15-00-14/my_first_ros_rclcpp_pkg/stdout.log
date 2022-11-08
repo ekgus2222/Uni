@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target helloworld_publisher[0m
+[ 50%] Built target helloworld_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o[0m

@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12
+[0.047s] [35m[1mScanning dependencies of target helloworld_publisher[0m
+[0.062s] [ 50%] Built target helloworld_subscriber
+[0.065s] [ 75%] [32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o[0m
+[1.042s] [01m[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:[m[K In constructor ‘[01m[KHelloworldPublisher::HelloworldPublisher()[m[K’:
+[1.042s] [01m[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:21:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kst[m[K’ has not been declared
+[1.042s]    21 |    1s, [01;31m[Kst[m[K::bind(&HelloworldPublisher::publish_helloworld_msg, this));
+[1.042s]       |        [01;31m[K^~[m[K
+[1.683s] make[2]: *** [CMakeFiles/helloworld_publisher.dir/build.make:63: CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o] Error 1
+[1.683s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/helloworld_publisher.dir/all] Error 2
+[1.683s] make: *** [Makefile:141: all] Error 2
+[1.685s] Invoked command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12

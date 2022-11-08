@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000273] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000458] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000478] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000497] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.010430] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.011044] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[0.011824] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1375'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:41456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1420,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1420'), ('INVOCATION_ID', '0a1453fa13e64346b48986eba34a0989'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-314602dcd4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f7b1f1-202c-448b-9a28-f3bb0e7f7a82'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.071465] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o\x1b[0m\n'}
+[0.072237] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o\x1b[0m\n'}
+[0.099802] (-) TimerEvent: {}
+[0.200100] (-) TimerEvent: {}
+[0.300400] (-) TimerEvent: {}
+[0.400663] (-) TimerEvent: {}
+[0.500890] (-) TimerEvent: {}
+[0.601218] (-) TimerEvent: {}
+[0.701504] (-) TimerEvent: {}
+[0.801798] (-) TimerEvent: {}
+[0.902064] (-) TimerEvent: {}
+[1.002334] (-) TimerEvent: {}
+[1.085640] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHelloworldPublisher::HelloworldPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.085810] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:21:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.085869] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   21 |    1s, \x1b[01;31m\x1b[Kst\x1b[m\x1b[K::bind(&HelloworldPublusher::publish_helloworld_msg, this));\n'}
+[1.085919] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.085966] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_publisher.cpp:21:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHelloworldPublusher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.086012] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   21 |    1s, st::bind(&\x1b[01;31m\x1b[KHelloworldPublusher\x1b[m\x1b[K::publish_helloworld_msg, this));\n'}
+[1.086057] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.102432] (-) TimerEvent: {}
+[1.131627] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHelloworldSubscriber::HelloworldSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.131779] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khelloworld_subsciber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Khelloworld_subscriber_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.131843] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Khelloworld_subsciber_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>(\n'}
+[1.131898] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.131950] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[32m\x1b[Khelloworld_subscriber_\x1b[m\x1b[K\n'}
+[1.139139] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:20:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.139275] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   20 |         \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[1.139334] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.141014] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.141108] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.141339] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.141392] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.141442] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.141491] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.141540] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.141648] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.141700] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.141748] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.141797] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.141846] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HelloworldSubscriber::subscribe_topic_message(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.141902] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.141963] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(\x1b[01;31m\x1b[Kthis-get_logger()\x1b[m\x1b[K, "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.142012] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.142065] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.142115] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[1.142164] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:40\x1b[m\x1b[K,\n'}
+[1.142213] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.142262] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.142310] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.142394] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[1.142462] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.142515] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.142572] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'  415 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.142622] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.142672] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:415:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.142723] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.142773] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.142823] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.142873] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.142923] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.142972] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.143021] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.143069] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.143118] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.143167] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.143220] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.143269] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143322] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.143372] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.143422] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.143470] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[1.143519] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:40\x1b[m\x1b[K,\n'}
+[1.143571] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.143620] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.143668] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.143716] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[1.143765] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.143813] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1209:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.143863] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b' 1209 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[1.143912] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.143961] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1209:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.144010] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.144062] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.144113] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.144161] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.144210] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.144259] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.144310] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.144358] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.144406] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.144454] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.144506] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.144554] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.144607] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this-get_logger(\x1b[01;36m\x1b[K)\x1b[m\x1b[K, "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.144656] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.144706] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:68\x1b[m\x1b[K,\n'}
+[1.144754] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:27\x1b[m\x1b[K,\n'}
+[1.144803] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.144851] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.144900] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.144947] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.144996] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_bvector.h:214:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145052] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'  214 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)\n'}
+[1.145101] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.145150] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_bvector.h:214:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Bit_iterator_base&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145201] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'  214 |   operator-(\x1b[01;36m\x1b[Kconst _Bit_iterator_base& __x\x1b[m\x1b[K, const _Bit_iterator_base& __y)\n'}
+[1.145250] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.145299] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.145351] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.145402] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.145477] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.145532] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.145581] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.145629] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.145678] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.145726] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.145775] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.145833] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.145913] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.145999] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.146088] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.146171] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.146257] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.146349] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.146436] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.146515] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this-get_logger(), "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.146600] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.146711] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.146798] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.146886] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.146967] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.147053] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.147139] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.147220] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.147313] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.147395] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.147476] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.147556] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[1.147641] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147742] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this\x1b[01;31m\x1b[K-\x1b[m\x1b[Kget_logger(), "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.147819] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.147900] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dahyeon/dev_ws/src/my_first_ros_rclcpp_pkg/src/helloworld_subscriber.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst HelloworldSubscriber*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.147979] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'   25 |         RCLCPP_INFO(this\x1b[01;31m\x1b[K-\x1b[m\x1b[Kget_logger(), "Received message: \'%s\'", msg->data.c_str());\n'}
+[1.148056] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.202522] (-) TimerEvent: {}
+[1.302751] (-) TimerEvent: {}
+[1.402974] (-) TimerEvent: {}
+[1.503202] (-) TimerEvent: {}
+[1.603436] (-) TimerEvent: {}
+[1.703675] (-) TimerEvent: {}
+[1.785004] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/helloworld_publisher.dir/build.make:63: CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o] Error 1\n'}
+[1.785317] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/helloworld_publisher.dir/all] Error 2\n'}
+[1.785412] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.803813] (-) TimerEvent: {}
+[1.904106] (-) TimerEvent: {}
+[2.004336] (-) TimerEvent: {}
+[2.104640] (-) TimerEvent: {}
+[2.204901] (-) TimerEvent: {}
+[2.261511] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/helloworld_subscriber.dir/build.make:63: CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o] Error 1\n'}
+[2.261665] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/helloworld_subscriber.dir/all] Error 2\n'}
+[2.261783] (my_first_ros_rclcpp_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.264037] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 2}
+[2.293280] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 2}
+[2.303930] (-) EventReactorShutdown: {}

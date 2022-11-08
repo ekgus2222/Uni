@@ -1,0 +1,19 @@
+[100%] Built target my_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/lib/my_package/my_node
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.bash
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.sh
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.zsh
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dahyeon/dev_ws/build/time_msgs/rosidl_generator_py/time_msgs/libtime_msgs__python.so" "TARGETS" "time_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

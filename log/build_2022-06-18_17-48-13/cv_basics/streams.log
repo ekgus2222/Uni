@@ -1,0 +1,16 @@
+[1.252s] Invoking command in '/home/dahyeon/dev_ws/build/cv_basics': PYTHONPATH=/home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/cv_basics --editable --build-directory /home/dahyeon/dev_ws/build/cv_basics/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/cv_basics
+[1.454s] running develop
+[1.572s] running egg_info
+[1.572s] writing cv_basics.egg-info/PKG-INFO
+[1.572s] writing dependency_links to cv_basics.egg-info/dependency_links.txt
+[1.572s] writing entry points to cv_basics.egg-info/entry_points.txt
+[1.572s] writing requirements to cv_basics.egg-info/requires.txt
+[1.572s] writing top-level names to cv_basics.egg-info/top_level.txt
+[1.598s] reading manifest file 'cv_basics.egg-info/SOURCES.txt'
+[1.599s] writing manifest file 'cv_basics.egg-info/SOURCES.txt'
+[1.627s] running build_ext
+[1.627s] Creating /home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages/cv-basics.egg-link (link to .)
+[1.628s] 
+[1.628s] Installed /home/dahyeon/dev_ws/build/cv_basics
+[1.628s] running install_data
+[1.650s] Invoked command in '/home/dahyeon/dev_ws/build/cv_basics' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/cv_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/cv_basics --editable --build-directory /home/dahyeon/dev_ws/build/cv_basics/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/cv_basics

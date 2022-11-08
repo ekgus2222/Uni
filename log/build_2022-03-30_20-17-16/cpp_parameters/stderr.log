@@ -1,0 +1,11 @@
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:[m[K In function ‘[01m[Kvoid parameter_call_back(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:10:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   10 | void parameter_call_back([01;35m[Kstd::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>> future[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:42:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   42 |   char* argv2 = [01;35m[K"10"[m[K;
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/cpp_parameters/src/cpp_parameters_client.cpp:42:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargv2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   42 |   char* [01;35m[Kargv2[m[K = "10";
+      |         [01;35m[K^~~~~[m[K

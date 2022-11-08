@@ -1,0 +1,35 @@
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `url_get_proc[abi:cxx11](char const*, int)':
+alarmserver.cpp:(.text+0x81f): undefined reference to `Json::Reader::Reader()'
+/usr/bin/ld: alarmserver.cpp:(.text+0x833): undefined reference to `Json::Value::Value(Json::ValueType)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x855): undefined reference to `Json::Reader::parse(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Json::Value&, bool)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x86b): undefined reference to `Json::Value::operator[](char const*)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x880): undefined reference to `Json::Value::Value(Json::Value const&)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x899): undefined reference to `Json::Value::begin()'
+/usr/bin/ld: alarmserver.cpp:(.text+0x8b2): undefined reference to `Json::Value::end()'
+/usr/bin/ld: alarmserver.cpp:(.text+0x8f1): undefined reference to `Json::Value::operator[](char const*)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x906): undefined reference to `Json::Value::Value(Json::Value const&)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x91f): undefined reference to `Json::Value::begin()'
+/usr/bin/ld: alarmserver.cpp:(.text+0x938): undefined reference to `Json::Value::end()'
+/usr/bin/ld: alarmserver.cpp:(.text+0x977): undefined reference to `Json::Value::operator[](char const*)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x98c): undefined reference to `Json::Value::Value(Json::Value const&)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x9a2): undefined reference to `Json::Value::operator[](char const*)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x9b7): undefined reference to `Json::Value::Value(Json::Value const&)'
+/usr/bin/ld: alarmserver.cpp:(.text+0x9d0): undefined reference to `Json::Value::asString[abi:cxx11]() const'
+/usr/bin/ld: alarmserver.cpp:(.text+0xa37): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: alarmserver.cpp:(.text+0xa46): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: alarmserver.cpp:(.text+0xa69): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: alarmserver.cpp:(.text+0xa7d): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: alarmserver.cpp:(.text+0xa8c): undefined reference to `Json::Value::~Value()'
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o:alarmserver.cpp:(.text+0xb08): more undefined references to `Json::Value::~Value()' follow
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Json::ValueIteratorBase::operator!=(Json::ValueIteratorBase const&) const':
+alarmserver.cpp:(.text._ZNK4Json17ValueIteratorBaseneERKS0_[_ZNK4Json17ValueIteratorBaseneERKS0_]+0x23): undefined reference to `Json::ValueIteratorBase::isEqual(Json::ValueIteratorBase const&) const'
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Json::ValueIterator::operator++(int)':
+alarmserver.cpp:(.text._ZN4Json13ValueIteratorppEi[_ZN4Json13ValueIteratorppEi]+0x35): undefined reference to `Json::ValueIterator::ValueIterator(Json::ValueIterator const&)'
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Json::ValueIterator::operator++()':
+alarmserver.cpp:(.text._ZN4Json13ValueIteratorppEv[_ZN4Json13ValueIteratorppEv]+0x18): undefined reference to `Json::ValueIteratorBase::increment()'
+/usr/bin/ld: CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o: in function `Json::ValueIterator::operator*() const':
+alarmserver.cpp:(.text._ZNK4Json13ValueIteratordeEv[_ZNK4Json13ValueIteratordeEv]+0x18): undefined reference to `Json::ValueIteratorBase::deref() const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:137: alarmserver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/launch/testbot.launch.py
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/rviz/testbot.rviz
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/urdf/testbot.urdf
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/package_run_dependencies/testbot_description
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/parent_prefix_path/testbot_description
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.bash
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.sh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.zsh
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.dsv
+-- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.dsv
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/packages/testbot_description
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.xml

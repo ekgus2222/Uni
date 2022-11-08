@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target alarmserver[0m
+[ 33%] Built target alarmclient
+[ 66%] Built target alarm_change_client
+[ 83%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarm/alarmserver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable alarmserver[0m

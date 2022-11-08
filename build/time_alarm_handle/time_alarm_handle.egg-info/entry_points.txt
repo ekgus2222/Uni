@@ -1,0 +1,3 @@
+[console_scripts]
+time_alarm_handle = time_alarm_handle.alarm_handle_node:main
+

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dahyeon/dev_ws/build/cpp_parameters/cpp_parameters_server" "/home/dahyeon/dev_ws/build/cpp_parameters/cpp_parameters_client" "TARGETS" "cpp_parameters_server" "cpp_parameters_client" "DESTINATION" "lib/cpp_parameters")

@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000253] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000403] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000833] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.001501] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.001540] (-) JobUnselected: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.001567] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.001599] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001622] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.001644] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.001671] (-) JobUnselected: {'identifier': 'srv_alarm_interface'}
+[0.001698] (-) JobUnselected: {'identifier': 'test'}
+[0.001769] (-) JobUnselected: {'identifier': 'test'}
+[0.001783] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.001827] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.001841] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.001935] (-) JobUnselected: {'identifier': 'time_alarm_handle'}
+[0.001971] (-) JobUnselected: {'identifier': 'time_calculate'}
+[0.002006] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.002023] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.002092] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.002152] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.002174] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002188] (-) JobUnselected: {'identifier': 'uni'}
+[0.002209] (-) JobUnselected: {'identifier': 'uni_save'}
+[0.002225] (time_msgs) JobQueued: {'identifier': 'time_msgs', 'dependencies': OrderedDict()}
+[0.002271] (time_msgs) JobStarted: {'identifier': 'time_msgs'}
+[0.017042] (time_msgs) JobProgress: {'identifier': 'time_msgs', 'progress': 'cmake'}
+[0.017227] (time_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dahyeon/dev_ws/src/uni_time/time_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/time_msgs'], 'cwd': '/home/dahyeon/dev_ws/build/time_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1544'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/97/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.67.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/97/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/97/usr/share/code/code'), ('MANAGERPID', '1234'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=650d798fa3c2b277592f681e6285c7e9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dahyeon/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:42568'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1582,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1582'), ('INVOCATION_ID', '4541c65a1e2d4b00bb2a7b56ff5cc150'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7cbc543_0ae3_4c63_b2ff_43fb0470d928'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d8d26bce7f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/97/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/time_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=650d798fa3c2b277592f681e6285c7e9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy')]), 'shell': False}
+[0.093384] (time_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099732] (-) TimerEvent: {}
+[0.199997] (-) TimerEvent: {}
+[0.238229] (time_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.247034] (time_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.293876] (time_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.295321] (time_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300076] (-) TimerEvent: {}
+[0.345953] (time_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.355883] (time_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.356289] (time_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.358932] (time_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400202] (-) TimerEvent: {}
+[0.417714] (time_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.418514] (time_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.474920] (time_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.483963] (time_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.484303] (time_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.489064] (time_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.500293] (-) TimerEvent: {}
+[0.525192] (time_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.525317] (time_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600407] (-) TimerEvent: {}
+[0.678505] (time_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700484] (-) TimerEvent: {}
+[0.722157] (time_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.729986] (time_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.740085] (time_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800572] (-) TimerEvent: {}
+[0.831955] (time_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.855055] (time_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.900655] (-) TimerEvent: {}
+[0.938991] (time_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.990062] (time_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.000721] (-) TimerEvent: {}
+[1.100925] (-) TimerEvent: {}
+[1.184065] (time_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.200989] (-) TimerEvent: {}
+[1.296671] (time_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301053] (-) TimerEvent: {}
+[1.324919] (time_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.352961] (time_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.355269] (time_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.383614] (time_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.383799] (time_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.383853] (time_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.383900] (time_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.401125] (-) TimerEvent: {}
+[1.408690] (time_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.468995] (time_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.501205] (-) TimerEvent: {}
+[1.504930] (time_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.507570] (time_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.509421] (time_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.516547] (time_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.554036] (time_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.555871] (time_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dahyeon/dev_ws/build/time_msgs\n'}
+[1.561440] (time_msgs) CommandEnded: {'returncode': 0}
+[1.563692] (time_msgs) JobProgress: {'identifier': 'time_msgs', 'progress': 'build'}
+[1.563835] (time_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dahyeon/dev_ws/build/time_msgs', '--', '-j12', '-l12'], 'cwd': '/home/dahyeon/dev_ws/build/time_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1544'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/97/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.67.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/97/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/97/usr/share/code/code'), ('MANAGERPID', '1234'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=650d798fa3c2b277592f681e6285c7e9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dahyeon/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:42568'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1582,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1582'), ('INVOCATION_ID', '4541c65a1e2d4b00bb2a7b56ff5cc150'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7cbc543_0ae3_4c63_b2ff_43fb0470d928'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d8d26bce7f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/97/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/time_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=650d798fa3c2b277592f681e6285c7e9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy')]), 'shell': False}
+[1.591086] (time_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.591303] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__cpp\x1b[0m\n'}
+[1.598518] (time_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.601269] (-) TimerEvent: {}
+[1.701531] (-) TimerEvent: {}
+[1.801791] (-) TimerEvent: {}
+[1.902035] (-) TimerEvent: {}
+[1.956230] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.963615] (time_msgs) StdoutLine: {'line': b'[  5%] Built target time_msgs__cpp\n'}
+[1.968297] (time_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/time_msgs__rosidl_generator_c.dir/rosidl_generator_c/time_msgs/srv/detail/time__functions.c.o\x1b[0m\n'}
+[1.968538] (time_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/time_msgs__rosidl_generator_c.dir/rosidl_generator_c/time_msgs/action/detail/time__functions.c.o\x1b[0m\n'}
+[1.971109] (time_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.971284] (time_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.971375] (time_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.002128] (-) TimerEvent: {}
+[2.034734] (time_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtime_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.069722] (time_msgs) StdoutLine: {'line': b'[ 20%] Built target time_msgs__rosidl_generator_c\n'}
+[2.077886] (time_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.078085] (time_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.102213] (-) TimerEvent: {}
+[2.202464] (-) TimerEvent: {}
+[2.233505] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.243768] (time_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/time_msgs/action/time__type_support.cpp.o\x1b[0m\n'}
+[2.246260] (time_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/time_msgs/srv/time__type_support.cpp.o\x1b[0m\n'}
+[2.275996] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.286546] (time_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/time_msgs/action/detail/time__type_support.cpp.o\x1b[0m\n'}
+[2.289508] (time_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/time_msgs/srv/detail/time__type_support.cpp.o\x1b[0m\n'}
+[2.302556] (-) TimerEvent: {}
+[2.342885] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.358561] (time_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/time_msgs/srv/detail/dds_fastrtps/time__type_support.cpp.o\x1b[0m\n'}
+[2.359568] (time_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/time_msgs/action/detail/dds_fastrtps/time__type_support.cpp.o\x1b[0m\n'}
+[2.397924] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.402663] (-) TimerEvent: {}
+[2.414707] (time_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_msgs/action/time__type_support.cpp.o\x1b[0m\n'}
+[2.415632] (time_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_msgs/srv/time__type_support.cpp.o\x1b[0m\n'}
+[2.418306] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.444402] (time_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/time_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/time_msgs/srv/detail/time__type_support.c.o\x1b[0m\n'}
+[2.452966] (time_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/time_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/time_msgs/action/detail/time__type_support.c.o\x1b[0m\n'}
+[2.473372] (time_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libtime_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.502772] (-) TimerEvent: {}
+[2.504627] (time_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libtime_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.532798] (time_msgs) StdoutLine: {'line': b'[ 56%] Built target time_msgs__rosidl_typesupport_c\n'}
+[2.541982] (time_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtime_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.542246] (time_msgs) StdoutLine: {'line': b'[ 58%] Built target time_msgs__rosidl_typesupport_introspection_c\n'}
+[2.573418] (time_msgs) StdoutLine: {'line': b'[ 58%] Built target time_msgs__rosidl_typesupport_cpp\n'}
+[2.602881] (-) TimerEvent: {}
+[2.683448] (time_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtime_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.703004] (-) TimerEvent: {}
+[2.745241] (time_msgs) StdoutLine: {'line': b'[ 61%] Built target time_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.803122] (-) TimerEvent: {}
+[2.865187] (time_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtime_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.903239] (-) TimerEvent: {}
+[2.948107] (time_msgs) StdoutLine: {'line': b'[ 64%] Built target time_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.955097] (time_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.003348] (-) TimerEvent: {}
+[3.103615] (-) TimerEvent: {}
+[3.203889] (-) TimerEvent: {}
+[3.280135] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.293539] (time_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_msgs/action/detail/time__type_support_c.cpp.o\x1b[0m\n'}
+[3.293701] (time_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/time_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_msgs/srv/detail/time__type_support_c.cpp.o\x1b[0m\n'}
+[3.304025] (-) TimerEvent: {}
+[3.404261] (-) TimerEvent: {}
+[3.504510] (-) TimerEvent: {}
+[3.592987] (time_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtime_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.604596] (-) TimerEvent: {}
+[3.655630] (time_msgs) StdoutLine: {'line': b'[ 74%] Built target time_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.662266] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs\x1b[0m\n'}
+[3.669158] (time_msgs) StdoutLine: {'line': b'[ 74%] Built target time_msgs\n'}
+[3.675649] (time_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target time_msgs__py\x1b[0m\n'}
+[3.682521] (time_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.704669] (-) TimerEvent: {}
+[3.804860] (-) TimerEvent: {}
+[3.836737] (time_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.837233] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>\n'}
+[3.837305] (time_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[3.837360] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main\n'}
+[3.837409] (time_msgs) StderrLine: {'line': b"    return generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))\n"}
+[3.837456] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py\n'}
+[3.837504] (time_msgs) StderrLine: {'line': b'    generate_files(generator_arguments_file, mapping)\n'}
+[3.837550] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[3.837618] (time_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[3.837682] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[3.837762] (time_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[3.837861] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[3.838029] (time_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[3.838133] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[3.838329] (time_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[3.838431] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[3.838661] (time_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[3.838798] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[3.839042] (time_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[3.839158] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[3.839318] (time_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[3.839414] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[3.839569] (time_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[3.839664] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[3.839885] (time_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[3.839973] (time_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[3.840073] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[3.840177] (time_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[3.840252] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[3.840419] (time_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[3.840577] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[3.840826] (time_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[3.840924] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[3.841166] (time_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[3.841265] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[3.841413] (time_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[3.841495] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[3.841688] (time_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[3.841775] (time_msgs) StderrLine: {'line': b'  File "<string>", line 7, in <module>\n'}
+[3.841884] (time_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[3.841963] (time_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[3.842036] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[3.842181] (time_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[3.842263] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[3.842456] (time_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[3.842554] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[3.842736] (time_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[3.842816] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[3.842936] (time_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[3.843014] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[3.843209] (time_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[3.843294] (time_msgs) StderrLine: {'line': b'  File "<string>", line 3, in <module>\n'}
+[3.843372] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 142, in <module>\n'}
+[3.843647] (time_msgs) StderrLine: {'line': b'    from . import core\n'}
+[3.843733] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 17, in <module>\n'}
+[3.843979] (time_msgs) StderrLine: {'line': b'    from . import multiarray\n'}
+[3.844080] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 991, in _find_and_load\n'}
+[3.844284] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked\n'}
+[3.844438] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked\n'}
+[3.844577] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 844, in exec_module\n'}
+[3.844713] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 939, in get_code\n'}
+[3.844844] (time_msgs) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 1038, in get_data\n'}
+[3.844977] (time_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[3.850521] (time_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7fc9598faaf0>\n'}
+[3.850734] (time_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.850822] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[3.850899] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[3.850978] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[3.851060] (time_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[3.851149] (time_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[3.854834] (time_msgs) StderrLine: {'line': b'make[2]: *** [time_msgs__py/CMakeFiles/time_msgs__py.dir/build.make:90: rosidl_generator_py/time_msgs/_time_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt\n'}
+[3.854995] (time_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:553: time_msgs__py/CMakeFiles/time_msgs__py.dir/all] Interrupt\n'}
+[3.855153] (time_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[3.856326] (time_msgs) CommandEnded: {'returncode': -2}
+[3.904946] (-) TimerEvent: {}
+[3.913454] (time_msgs) JobEnded: {'identifier': 'time_msgs', 'rc': 'SIGINT'}
+[3.923895] (-) EventReactorShutdown: {}

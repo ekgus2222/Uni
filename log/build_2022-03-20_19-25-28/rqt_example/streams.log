@@ -1,0 +1,2 @@
+[0.614s] Invoking command in '/home/dahyeon/dev_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/rqt_example -- -j12 -l12
+[0.876s] Invoked command in '/home/dahyeon/dev_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/rqt_example -- -j12 -l12

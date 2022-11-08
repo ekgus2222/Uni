@@ -1,0 +1,23 @@
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:[m[K In member function ‘[01m[Kstd::string Alarmserver::calculate_alarm_time()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:133:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kout_time_h_[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  133 |   int [01;35m[Kout_time_h_[m[K, out_time_m_;
+      |       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:133:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kout_time_m_[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  133 |   int out_time_h_, [01;35m[Kout_time_m_[m[K;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:134:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_hour[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  134 |   int [01;35m[Kout_hour[m[K, result_hour;
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:134:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult_hour[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  134 |   int out_hour, [01;35m[Kresult_hour[m[K;
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:135:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  135 |   int [01;35m[Kout_min[m[K, result_min;
+      |       [01;35m[K^~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:135:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  135 |   int out_min, [01;35m[Kresult_min[m[K;
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:[m[K In function ‘[01m[Kstd::string Json_time(std::string)[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarm/alarmserver.cpp:71:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   71 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

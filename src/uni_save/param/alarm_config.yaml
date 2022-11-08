@@ -1,0 +1,6 @@
+/**: #namespace and node name
+  ros__parameters:
+    option : 1 
+    out_time : "9:00"
+    average_time : 50
+    num : 1 

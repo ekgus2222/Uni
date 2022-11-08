@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/dahyeon/dev_ws/build/uni': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12
+[0.075s] [35m[1mScanning dependencies of target alarmclient[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarmserver.cpp.o[0m
+[0.104s] [01m[K/home/dahyeon/dev_ws/src/uni/src/alarmserver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kalarmserver.hpp: No such file or directory
+[0.104s]     1 | #include [01;31m[K"alarmserver.hpp"[m[K
+[0.104s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.104s] compilation terminated.
+[0.105s] make[2]: *** [CMakeFiles/alarmserver.dir/build.make:63: CMakeFiles/alarmserver.dir/src/alarmserver.cpp.o] Error 1
+[0.105s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2
+[0.105s] make[1]: *** Waiting for unfinished jobs....
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarmclient.cpp.o[0m
+[0.237s] [01m[K/home/dahyeon/dev_ws/src/uni/src/alarmclient.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrc/alarmclient.hpp: No such file or directory
+[0.237s]     2 | #include [01;31m[K"src/alarmclient.hpp"[m[K
+[0.237s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.237s] compilation terminated.
+[0.241s] make[2]: *** [CMakeFiles/alarmclient.dir/build.make:63: CMakeFiles/alarmclient.dir/src/alarmclient.cpp.o] Error 1
+[0.241s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmclient.dir/all] Error 2
+[0.241s] make: *** [Makefile:141: all] Error 2
+[0.243s] Invoked command in '/home/dahyeon/dev_ws/build/uni' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/uni -- -j12 -l12

@@ -1,0 +1,4 @@
+[0.076s] Invoking command in '/home/dahyeon/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/cpp_pubsub -- -j12 -l12
+[0.876s] [ 50%] Built target listener
+[0.876s] [100%] Built target talker
+[0.880s] Invoked command in '/home/dahyeon/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/cpp_pubsub -- -j12 -l12

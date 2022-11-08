@@ -1,0 +1,334 @@
+[0.203s] Invoking command in '/home/dahyeon/dev_ws/build/time_calculate': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12
+[0.233s] [35m[1mScanning dependencies of target time_calculate_node[0m
+[0.240s] [ 40%] Built target create_tcp
+[0.254s] [ 60%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o[0m
+[1.272s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[1.272s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[1.272s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[1.272s]    92 | , shm_size[01;35m[K)[m[K;
+[1.272s]       |           [01;35m[K^[m[K
+[1.272s] 
+[1.272s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+[1.272s]    23 | typedef struct [01;36m[Kshm_struct[m[K{
+[1.272s]       |                [01;36m[K^~~~~~~~~~[m[K
+[1.282s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::send_request()[m[K’:
+[1.282s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Krclcpp::Logger[m[K’ and ‘[01m[Kconst char [24][m[K’)
+[1.282s]    82 | [32m[K_logger()[m[K [01;31m[K<<[m[K [34m[K"calculated wake time : "[m[K << alarm_time_);
+[1.282s]       | [32m[K~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.284s]       |        [32m[K|[m[K     [34m[K|[m[K
+[1.284s]       |        [32m[K|[m[K     [34m[Kconst char [24][m[K
+[1.284s]       |        [32m[Krclcpp::Logger[m[K
+[1.284s] 
+[1.284s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.284s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.284s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.284s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.284s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.284s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.285s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.285s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.285s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[1.285s]  6419 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[1.285s]       |     [01;36m[K^~~~~~~~[m[K
+[1.285s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.285s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.285s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.285s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.285s] 
+[1.285s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.285s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.285s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.285s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.285s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[1.285s]    66 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[1.285s]       |     [01;36m[K^~~~~~~~[m[K
+[1.285s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.285s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.286s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.286s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.286s] 
+[1.286s] In file included from [01m[K/usr/include/c++/9/mutex:42[m[K,
+[1.286s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[1.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.286s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.286s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.286s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[1.286s]   217 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[1.286s]       |     [01;36m[K^~~~~~~~[m[K
+[1.286s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.286s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.286s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.286s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.286s] 
+[1.287s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.287s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.287s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.287s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[1.287s]   322 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[1.287s]       |     [01;36m[K^~~~~~~~[m[K
+[1.287s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.287s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.287s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.287s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.287s] 
+[1.287s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.287s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.288s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.288s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.288s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[1.288s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[1.288s]       |     [01;36m[K^~~~~~~~[m[K
+[1.288s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.288s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.288s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.288s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.288s] 
+[1.288s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.288s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.289s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.289s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.289s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[1.289s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[1.289s]       |     [01;36m[K^~~~~~~~[m[K
+[1.289s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.289s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.289s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.289s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.289s] 
+[1.289s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.289s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.289s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.289s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.289s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[1.289s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[1.290s]       |     [01;36m[K^~~~~~~~[m[K
+[1.290s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.290s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.290s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.290s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.290s] 
+[1.290s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.290s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.290s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.290s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.290s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[1.290s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[1.290s]       |     [01;36m[K^~~~~~~~[m[K
+[1.290s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.290s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.290s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.290s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.290s] 
+[1.290s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.291s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.291s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.291s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[1.291s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[1.291s]       |     [01;36m[K^~~~~~~~[m[K
+[1.291s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.291s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.291s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.291s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.291s] 
+[1.291s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.291s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.291s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.292s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[1.292s]   548 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[1.292s]       |     [01;36m[K^~~~~~~~[m[K
+[1.292s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.292s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.292s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.292s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.292s] 
+[1.292s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[1.292s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.292s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.292s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.292s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.292s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[1.292s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[1.292s]       |     [01;36m[K^~~~~~~~[m[K
+[1.292s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.293s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[1.293s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.293s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.293s] 
+[1.293s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.293s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.293s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.293s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[1.293s]   565 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[1.293s]       |     [01;36m[K^~~~~~~~[m[K
+[1.293s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.293s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.293s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.293s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.293s] 
+[1.293s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.293s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.294s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.294s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.294s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[1.294s]   578 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[1.294s]       |     [01;36m[K^~~~~~~~[m[K
+[1.294s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.294s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.294s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.294s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.294s] 
+[1.294s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.294s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.294s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.294s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.295s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[1.295s]   583 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[1.295s]       |     [01;36m[K^~~~~~~~[m[K
+[1.295s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.295s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[1.295s]    82 | gger() << [01;36m[K"calculated wake time : "[m[K << alarm_time_);
+[1.295s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.295s] 
+[1.295s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.295s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.295s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.295s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.295s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[1.295s]   691 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[1.295s]       |     [01;36m[K^~~~~~~~[m[K
+[1.295s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.295s] /usr/include/c++/9/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = rclcpp::Logger; _Tp = char [24]][m[K’:
+[1.295s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:43:[m[K   required from here
+[1.296s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[1.296s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:34[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.296s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.296s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.296s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:38:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const rclcpp::FutureReturnCode&)[m[K’
+[1.296s]    38 | [01;36m[Koperator[m[K<<(std::ostream & os, const FutureReturnCode & future_return_code);
+[1.296s]       | [01;36m[K^~~~~~~~[m[K
+[1.296s] [01m[K/opt/ros/foxy/include/rclcpp/future_return_code.hpp:38:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[1.296s]    38 | [01;36m[Kostream & os[m[K, const FutureReturnCode & future_return_code);
+[1.296s]       | [01;36m[K~~~~~~~~~~^~[m[K
+[1.296s] 
+[1.296s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.296s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.297s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.297s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.297s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:53:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, rclcpp::ParameterType)[m[K’
+[1.297s]    53 | [01;36m[Koperator[m[K<<(std::ostream & os, ParameterType type);
+[1.297s]       | [01;36m[K^~~~~~~~[m[K
+[1.297s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:53:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[1.297s]    53 | [01;36m[Kostream & os[m[K, ParameterType type);
+[1.297s]       | [01;36m[K~~~~~~~~~~^~[m[K
+[1.297s] 
+[1.297s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[1.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.298s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.298s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.298s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/time_calculate/time_calculate_node.hpp:1[m[K,
+[1.298s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:1[m[K:
+[1.298s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:226:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const rclcpp::Parameter&)[m[K’
+[1.298s]   226 | [01;36m[Koperator[m[K<<(std::ostream & os, const rclcpp::Parameter & pv);
+[1.298s]       | [01;36m[K^~~~~~~~[m[K
+[1.298s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:226:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[1.298s]   226 | [01;36m[Kostream & os[m[K, const rclcpp::Parameter & pv);
+[1.298s]       | [01;36m[K~~~~~~~~~~^~[m[K
+[1.298s] 
+[1.298s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:230:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& rclcpp::operator<<(std::ostream&, const std::vector<rclcpp::Parameter>&)[m[K’
+[1.298s]   230 | [01;36m[Koperator[m[K<<(std::ostream & os, const std::vector<Parameter> & parameters);
+[1.298s]       | [01;36m[K^~~~~~~~[m[K
+[1.298s] [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:230:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Logger[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[1.298s]   230 | [01;36m[Kostream & os[m[K, const std::vector<Parameter> & parameters);
+[1.298s]       | [01;36m[K~~~~~~~~~~^~[m[K
+[1.298s] 
+[1.298s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:82:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_STREAM[m[K’ was not declared in this scope
+[1.298s]    82 |       [01;31m[KRCLCPP_STREAM[m[K(this->get_logger() << "calculated wake time : " << alarm_time_);
+[1.298s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.298s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::set_alarminfo()[m[K’:
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[1.299s]    16 | fine SHM_NAME [01;35m[K"shm_mem_test"[m[K
+[1.299s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.299s] 
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:171:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+[1.299s]   171 | memory_slave([01;36m[KSHM_NAME[m[K, shm);
+[1.299s]       |              [01;36m[K^~~~~~~~[m[K
+[1.299s] 
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kbool TimeCalculateNode::compare_time()[m[K’:
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:199:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.299s]   199 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+[1.299s]       |                    [01;35m[K^~~[m[K
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid wait_alarm(std::string)[m[K’:
+[1.299s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:216:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.299s]   216 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+[1.299s]       |                    [01;35m[K^~~[m[K
+[1.300s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_int(int)[m[K’:
+[1.300s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:280:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.300s]   280 | void sig_int([01;35m[Kint signo[m[K)
+[1.300s]       |              [01;35m[K~~~~^~~~~[m[K
+[2.047s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[2.047s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[2.047s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:140:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.047s]   140 | tatic int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+[2.047s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.047s] 
+[2.047s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:104:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.047s]   104 | tatic int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[2.047s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.047s] 
+[2.047s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:70:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.047s]    70 | tatic int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[2.047s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.047s] 
+[2.059s] make[2]: *** [CMakeFiles/time_calculate_node.dir/build.make:76: CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o] Error 1
+[2.059s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/time_calculate_node.dir/all] Error 2
+[2.060s] make: *** [Makefile:141: all] Error 2
+[2.061s] Invoked command in '/home/dahyeon/dev_ws/build/time_calculate' returned '2': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12

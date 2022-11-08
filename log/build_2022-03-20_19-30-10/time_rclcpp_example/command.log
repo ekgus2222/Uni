@@ -1,0 +1,4 @@
+Invoking command in '/home/dahyeon/dev_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_rclcpp_example -- -j12 -l12
+Invoked command in '/home/dahyeon/dev_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_rclcpp_example -- -j12 -l12
+Invoking command in '/home/dahyeon/dev_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_rclcpp_example
+Invoked command in '/home/dahyeon/dev_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/time_rclcpp_example

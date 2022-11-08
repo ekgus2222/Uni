@@ -1,0 +1,8 @@
+[01m[K/home/dahyeon/dev_ws/src/test/src/alarm_request/alarmclient.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kalarm_change/alarmclient.hpp: No such file or directory
+    2 | #include [01;31m[K"alarm_change/alarmclient.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/alarmclient.dir/build.make:63: CMakeFiles/alarmclient.dir/src/alarm_request/alarmclient.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmclient.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

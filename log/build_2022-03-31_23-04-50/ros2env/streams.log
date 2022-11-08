@@ -1,0 +1,18 @@
+[1.449s] Invoking command in '/home/dahyeon/dev_ws/build/ros2env': PYTHONPATH=/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/ros2env --editable --build-directory /home/dahyeon/dev_ws/build/ros2env/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/ros2env
+[1.769s] running develop
+[1.889s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for my-first-ros-rclpy-pkg 0.6.0 (/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg)
+[1.890s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.957s] running egg_info
+[1.957s] writing ros2env.egg-info/PKG-INFO
+[1.958s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.958s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.958s] writing requirements to ros2env.egg-info/requires.txt
+[1.958s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.996s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.998s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[2.067s] running build_ext
+[2.067s] Creating /home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[2.067s] 
+[2.067s] Installed /home/dahyeon/dev_ws/build/ros2env
+[2.067s] running install_data
+[2.097s] Invoked command in '/home/dahyeon/dev_ws/build/ros2env' returned '0': PYTHONPATH=/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/ros2env --editable --build-directory /home/dahyeon/dev_ws/build/ros2env/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/ros2env

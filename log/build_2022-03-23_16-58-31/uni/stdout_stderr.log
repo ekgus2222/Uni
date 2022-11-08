@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target alarmclient[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/alarmserver.dir/src/alarmserver.cpp.o[0m
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarmserver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kalarmserver.hpp: No such file or directory
+    1 | #include [01;31m[K"alarmserver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/alarmserver.dir/build.make:63: CMakeFiles/alarmserver.dir/src/alarmserver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/alarmserver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/alarmclient.dir/src/alarmclient.cpp.o[0m
+[01m[K/home/dahyeon/dev_ws/src/uni/src/alarmclient.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrc/alarmclient.hpp: No such file or directory
+    2 | #include [01;31m[K"src/alarmclient.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/alarmclient.dir/build.make:63: CMakeFiles/alarmclient.dir/src/alarmclient.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/alarmclient.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

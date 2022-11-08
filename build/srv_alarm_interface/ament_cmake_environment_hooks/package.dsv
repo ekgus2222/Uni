@@ -1,0 +1,4 @@
+source;share/srv_alarm_interface/local_setup.bash
+source;share/srv_alarm_interface/local_setup.dsv
+source;share/srv_alarm_interface/local_setup.sh
+source;share/srv_alarm_interface/local_setup.zsh

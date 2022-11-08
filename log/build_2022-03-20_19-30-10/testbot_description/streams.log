@@ -1,0 +1,24 @@
+[0.510s] Invoking command in '/home/dahyeon/dev_ws/build/testbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/testbot_description -- -j12 -l12
+[0.700s] Invoked command in '/home/dahyeon/dev_ws/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/testbot_description -- -j12 -l12
+[0.747s] Invoking command in '/home/dahyeon/dev_ws/build/testbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/testbot_description
+[0.764s] -- Install configuration: ""
+[0.765s] -- Execute custom install script
+[0.765s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/launch/testbot.launch.py
+[0.766s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/rviz/testbot.rviz
+[0.769s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/urdf/testbot.urdf
+[0.776s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/package_run_dependencies/testbot_description
+[0.787s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/parent_prefix_path/testbot_description
+[0.794s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.sh
+[0.803s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/ament_prefix_path.dsv
+[0.813s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.sh
+[0.823s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/environment/path.dsv
+[0.834s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.bash
+[0.846s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.sh
+[0.853s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.zsh
+[0.861s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/local_setup.dsv
+[0.869s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.dsv
+[0.879s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/ament_index/resource_index/packages/testbot_description
+[0.886s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig.cmake
+[0.895s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig-version.cmake
+[0.904s] -- Symlinking: /home/dahyeon/dev_ws/install/testbot_description/share/testbot_description/package.xml
+[1.137s] Invoked command in '/home/dahyeon/dev_ws/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/testbot_description

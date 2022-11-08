@@ -1,0 +1,161 @@
+[0.199s] Invoking command in '/home/dahyeon/dev_ws/build/time_calculate': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12
+[0.225s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.255s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.408s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.473s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.775s] -- Found time_msgs: 0.0.0 (/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/cmake)
+[0.869s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.939s] -- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni_time/time_calculate/include
+[0.939s] -- Configured cppcheck exclude dirs and/or files: 
+[0.940s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.940s] -- Configured cpplint exclude dirs and/or files: 
+[0.941s] -- Added test 'lint_cmake' to check CMake code style
+[0.942s] -- Added test 'uncrustify' to check C / C++ code style
+[0.942s] -- Configured uncrustify additional arguments: 
+[0.942s] -- Added test 'xmllint' to check XML markup files
+[0.945s] -- Configuring done
+[0.961s] -- Generating done
+[0.964s] -- Build files have been written to: /home/dahyeon/dev_ws/build/time_calculate
+[0.983s] [35m[1mScanning dependencies of target time_sub_node[0m
+[0.983s] [35m[1mScanning dependencies of target get_gps[0m
+[0.985s] [35m[1mScanning dependencies of target time_calculate_node[0m
+[0.991s] [ 22%] Built target create_tcp
+[0.991s] [ 33%] [32mBuilding CXX object CMakeFiles/get_gps.dir/src/homeTCP.cpp.o[0m
+[1.007s] [ 55%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/main.cpp.o[0m
+[1.007s] [ 55%] [32mBuilding CXX object CMakeFiles/time_calculate_node.dir/src/time_calculate_node.cpp.o[0m
+[1.007s] [ 66%] [32mBuilding CXX object CMakeFiles/time_sub_node.dir/src/time_sub.cpp.o[0m
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:169:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   169 |     pthread_mutex_lock(&shm->mtx);    /*Uncomment at the end of the test
+[1.138s]       |                                        
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:170:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   170 |     ishome_ = shm->ishome;            /*Uncomment at the end of the test
+[1.138s]       |                                        
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:171:39:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   171 |     pthread_mutex_unlock(&shm->mtx);  /*Uncomment at the end of the test
+[1.138s]       |                                        
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:174:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   174 |       pthread_mutex_lock(&shm->mtx);    /*Uncomment at the end of the test
+[1.138s]       |                                          
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:175:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   175 |       ishome_ = shm->ishome;            /*Uncomment at the end of the test
+[1.138s]       |                                          
+[1.138s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:176:41:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.138s]   176 |       pthread_mutex_unlock(&shm->mtx);  /*Uncomment at the end of the test
+[1.139s]       |                                          
+[1.204s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.205s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:108:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[1.205s]   108 |     ret = __init_shared_memory_slave([01;35m[K"shm_mem_test"[m[K, shm);
+[1.205s]       |                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.230s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[1.230s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[1.230s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:105:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.230s]   105 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[1.230s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.230s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:71:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.230s]    71 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[1.230s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.278s] [ 77%] [32m[1mLinking CXX executable get_gps[0m
+[1.350s] [ 77%] Built target get_gps
+[2.033s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscrition[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+[2.033s]     9 |     rclcpp::[01;31m[KSubscrition[m[K<time_msgs::msg::Time>::SharedPtr time_msg_subscriber_;
+[2.033s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.033s]       |             [32m[KSubscription[m[K
+[2.033s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:25:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.033s]    25 | }
+[2.033s]       |  [01;31m[K^[m[K
+[2.033s]       |  [32m[K;[m[K
+[2.035s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.035s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.036s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.036s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:1[m[K:
+[2.036s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_topic_message(time_msgs::msg::Time_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.036s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:12:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct time_msgs::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct time_msgs::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.036s]    12 |         RCLCPP_INFO(this->get_logger(), "Received message: '%s'", msg->[01;31m[Kdata[m[K.c_str());
+[2.036s]       |                                                                        [01;31m[K^~~~[m[K
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Ktime_msg_subscriber_[m[K’
+[2.037s]    19 |         this->[01;31m[Ktime_msg_subscriber_[m[K = this->create_subscrition<time_msgs::msg::Time>(
+[2.037s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscrition[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[2.037s]    19 |         this->time_msg_subscriber_ = this->[01;31m[Kcreate_subscrition[m[K<time_msgs::msg::Time>(
+[2.037s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.037s]       |                                            [32m[Kcreate_subscription[m[K
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:19:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.037s]    19 |         this->time_msg_subscriber_ = this->create_subscrition<time_msgs::msg::Time[01;31m[K>[m[K(
+[2.037s]       |                                                                                   [01;31m[K^[m[K
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:20:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.037s]    20 |             [01;35m[K"set_alarm"[m[K,
+[2.037s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[2.037s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:22:74:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[2.037s]    22 |             std::bind(&MinimalSubscriber::subscribe_topic_message, this, [01;31m[K_1[m[K));
+[2.037s]       |                                                                          [01;31m[K^~[m[K
+[2.037s]       |                                                                          [32m[Kstd::placeholders::_1[m[K
+[2.037s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[2.037s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[2.038s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[2.038s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.038s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.038s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.038s]                  from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:1[m[K:
+[2.038s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[2.038s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[2.038s]       |                                  [01;36m[K^~[m[K
+[2.072s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[2.072s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kvoid TimeCalculateNode::set_alarminfo()[m[K’:
+[2.072s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[2.072s]    16 | #define SHM_NAME [01;35m[K"shm_mem_test"[m[K
+[2.072s]       |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.072s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:200:36:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+[2.072s]   200 |   ret = __init_shared_memory_slave([01;36m[KSHM_NAME[m[K, shm);
+[2.072s]       |                                    [01;36m[K^~~~~~~~[m[K
+[2.073s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:199:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.073s]   199 |   int [01;35m[Kret[m[K;
+[2.073s]       |       [01;35m[K^~~[m[K
+[2.073s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In member function ‘[01m[Kbool TimeCalculateNode::compare_time()[m[K’:
+[2.073s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:228:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.073s]   228 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+[2.073s]       |                    [01;35m[K^~~[m[K
+[2.074s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid wait_alarm(std::string)[m[K’:
+[2.074s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:245:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgtp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.074s]   245 |   struct tm *ltp, *[01;35m[Kgtp[m[K;
+[2.074s]       |                    [01;35m[K^~~[m[K
+[2.075s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_alm(int)[m[K’:
+[2.075s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:309:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.075s]   309 | void sig_alm([01;35m[Kint signo[m[K)
+[2.075s]       |              [01;35m[K~~~~^~~~~[m[K
+[2.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:[m[K In function ‘[01m[Kvoid sig_int(int)[m[K’:
+[2.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:314:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksigno[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.076s]   314 | void sig_int([01;35m[Kint signo[m[K)
+[2.076s]       |              [01;35m[K~~~~^~~~~[m[K
+[2.328s] make[2]: *** [CMakeFiles/time_sub_node.dir/build.make:63: CMakeFiles/time_sub_node.dir/src/time_sub.cpp.o] Error 1
+[2.328s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/time_sub_node.dir/all] Error 2
+[2.328s] make[1]: *** Waiting for unfinished jobs....
+[2.791s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_calculate_node.cpp:2[m[K:
+[2.791s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[2.791s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:141:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.791s]   141 | static int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+[2.791s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.791s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:105:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.792s]   105 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[2.792s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.792s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:71:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[2.792s]    71 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[2.792s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.628s] [ 88%] [32m[1mLinking CXX executable time_calculate_node[0m
+[3.815s] [ 88%] Built target time_calculate_node
+[3.816s] make: *** [Makefile:141: all] Error 2
+[3.818s] Invoked command in '/home/dahyeon/dev_ws/build/time_calculate' returned '2': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/face_detection:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/face_detection:/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12

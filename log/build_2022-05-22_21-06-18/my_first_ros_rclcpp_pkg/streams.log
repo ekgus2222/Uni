@@ -1,0 +1,24 @@
+[0.290s] Invoking command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12
+[0.685s] [100%] Built target helloworld_publisher
+[0.685s] [100%] Built target helloworld_subscriber
+[0.694s] Invoked command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg -- -j12 -l12
+[0.720s] Invoking command in '/home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/my_first_ros_rclcpp_pkg
+[0.750s] -- Install configuration: ""
+[0.751s] -- Execute custom install script
+[0.751s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher
+[0.751s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber
+[0.752s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+[0.752s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+[0.752s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+[0.753s] -- Symlinking: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+[0.753s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+[0.754s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+[0.754s] -- Up-to-date symlink: /home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml

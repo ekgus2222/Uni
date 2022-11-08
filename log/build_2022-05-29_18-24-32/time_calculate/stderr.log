@@ -1,0 +1,12 @@
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:112:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  112 |     ret = __init_shared_memory_slave([01;35m[K"shm_mem_test"[m[K, shm);
+      |                                      [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:105:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  105 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:71:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   71 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

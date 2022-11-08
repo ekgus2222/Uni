@@ -1,0 +1,99 @@
+[0.019s] Invoking command in '/home/dahyeon/dev_ws/build/time_calculate': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12
+[0.077s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.116s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.281s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.299s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.644s] -- Found time_msgs: 0.0.0 (/home/dahyeon/dev_ws/install/time_msgs/share/time_msgs/cmake)
+[0.738s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.803s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.804s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.804s] -- Configured cppcheck include dirs: /home/dahyeon/dev_ws/src/uni_time/time_calculate/include
+[0.804s] -- Configured cppcheck exclude dirs and/or files: 
+[0.805s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.805s] -- Configured cpplint exclude dirs and/or files: 
+[0.806s] -- Added test 'lint_cmake' to check CMake code style
+[0.807s] -- Added test 'uncrustify' to check C / C++ code style
+[0.807s] -- Configured uncrustify additional arguments: 
+[0.807s] -- Added test 'xmllint' to check XML markup files
+[0.810s] -- Configuring done
+[0.824s] -- Generating done
+[0.826s] -- Build files have been written to: /home/dahyeon/dev_ws/build/time_calculate
+[0.846s] [35m[1mScanning dependencies of target get_gps[0m
+[0.846s] [35m[1mScanning dependencies of target create_tcp[0m
+[0.854s] [ 14%] [32mBuilding CXX object CMakeFiles/get_gps.dir/src/homeTCP.cpp.o[0m
+[0.854s] [ 28%] [32mBuilding CXX object CMakeFiles/create_tcp.dir/src/tcpNshared.cpp.o[0m
+[0.862s] [ 71%] Built target time_calculate_node
+[0.949s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:13:[m[K [01;35m[Kwarning: [m[K"BUFFSIZE" redefined
+[0.950s]    13 | #define BUFFSIZE 1024
+[0.950s]       | 
+[0.950s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[0.950s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:18:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.950s]    18 | #define BUFFSIZE 4096
+[0.950s]       | 
+[0.950s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:14:[m[K [01;35m[Kwarning: [m[K"PORTNO" redefined
+[0.950s]    14 | #define PORTNO 39999
+[0.950s]       | 
+[0.950s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[0.950s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:19:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.950s]    19 | #define PORTNO 6000
+[0.950s]       | 
+[1.068s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[1.068s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[1.068s]    92 |     memset(shm, 0, shm_size[01;35m[K)[m[K;
+[1.068s]       |                            [01;35m[K^[m[K
+[1.068s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+[1.068s]    23 | typedef struct [01;36m[Kshm_struct[m[K{
+[1.068s]       |                [01;36m[K^~~~~~~~~~[m[K
+[1.069s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.070s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:109:38:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kint __init_shared_memory_slave(char*, shm_struct_t*&)[m[K’
+[1.070s]   109 |     ret = __init_shared_memory_slave([01;31m[K)[m[K;
+[1.070s]       |                                      [01;31m[K^[m[K
+[1.070s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/homeTCP.cpp:9[m[K:
+[1.070s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:115:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.070s]   115 | static int [01;36m[K__init_shared_memory_slave[m[K(char* name, shm_struct_t* &shm)
+[1.070s]       |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.071s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[1.071s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K In function ‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’:
+[1.071s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:92:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[1.072s]    92 |     memset(shm, 0, shm_size[01;35m[K)[m[K;
+[1.072s]       |                            [01;35m[K^[m[K
+[1.072s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:23:16:[m[K [01;36m[Knote: [m[K‘[01m[Kshm_struct_t[m[K’ {aka ‘[01m[Kstruct shm_struct[m[K’} declared here
+[1.072s]    23 | typedef struct [01;36m[Kshm_struct[m[K{
+[1.072s]       |                [01;36m[K^~~~~~~~~~[m[K
+[1.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:16:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[1.076s]    16 | #define SHM_NAME [01;35m[K"shm_mem_test"[m[K
+[1.076s]       |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:151:39:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KSHM_NAME[m[K’
+[1.076s]   151 |     ret = __init_shared_memory_master([01;36m[KSHM_NAME[m[K, shm, mtx_attr);
+[1.076s]       |                                       [01;36m[K^~~~~~~~[m[K
+[1.076s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:149:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.076s]   149 |     int ret, [01;35m[Ki[m[K;
+[1.076s]       |              [01;35m[K^[m[K
+[1.092s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[1.093s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:104:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_master(shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.093s]   104 | static int [01;35m[K__destory_shared_memory_master[m[K(shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[1.093s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.093s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:70:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_master(char*, shm_struct_t*&, pthread_mutexattr_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.093s]    70 | static int [01;35m[K__init_shared_memory_master[m[K(char* name, shm_struct_t* &shm, pthread_mutexattr_t &mtx_attr)
+[1.093s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.096s] make[2]: *** [CMakeFiles/get_gps.dir/build.make:63: CMakeFiles/get_gps.dir/src/homeTCP.cpp.o] Error 1
+[1.096s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/get_gps.dir/all] Error 2
+[1.096s] make[1]: *** Waiting for unfinished jobs....
+[1.098s] In file included from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/tcpNshared.cpp:9[m[K:
+[1.098s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:[m[K At global scope:
+[1.098s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:140:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __destory_shared_memory_slave(shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.098s]   140 | static int [01;35m[K__destory_shared_memory_slave[m[K(shm_struct_t* &shm)
+[1.098s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.099s] [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/include/shm_mutex.h:115:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint __init_shared_memory_slave(char*, shm_struct_t*&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[1.099s]   115 | static int [01;35m[K__init_shared_memory_slave[m[K(char* name, shm_struct_t* &shm)
+[1.099s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.139s] [ 85%] [32m[1mLinking CXX executable create_tcp[0m
+[1.195s] [ 85%] Built target create_tcp
+[1.196s] make: *** [Makefile:141: all] Error 2
+[1.197s] Invoked command in '/home/dahyeon/dev_ws/build/time_calculate' returned '2': CMAKE_PREFIX_PATH=/home/dahyeon/dev_ws/install/time_msgs:/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/time_calculate:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/test:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_alarm_handle:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/dahyeon/dev_ws/install/time_msgs/lib:/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/dahyeon/dev_ws/install/time_msgs/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_alarm_handle:/home/dahyeon/dev_ws/install/time_alarm_handle/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dahyeon/dev_ws/build/time_calculate -- -j12 -l12

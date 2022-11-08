@@ -1,0 +1,32 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:1[m[K:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::subscribe_topic_message(time_msgs::msg::Time_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:13:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct time_msgs::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct time_msgs::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   13 |         RCLCPP_INFO(this->get_logger(), "Received message: '%s'", msg->[01;31m[Kdata[m[K.c_str());
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:20:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Kcreate_subscrition[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   20 |         this->time_msg_subscriber_ = this->[01;31m[Kcreate_subscrition[m[K<time_msgs::msg::Time>(
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kcreate_subscription[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:20:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         this->time_msg_subscriber_ = this->create_subscrition<time_msgs::msg::Time[01;31m[K>[m[K(
+      |                                                                                   [01;31m[K^[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:21:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   21 |             [01;35m[K"set_alarm"[m[K,
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dahyeon/dev_ws/src/uni_time/time_calculate/src/time_sub.cpp:23:76:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   23 |             std::bind(&MinimalSubscriber::subscribe_topic_message, this, _1[01;35m[K)[m[K);
+      |                                                                            [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/minimal_subscriber.dir/build.make:63: CMakeFiles/minimal_subscriber.dir/src/time_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/minimal_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,24 @@
+[0.633s] Invoking command in '/home/dahyeon/dev_ws/build/face_detection': PYTHONPATH=/home/dahyeon/dev_ws/install/face_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dahyeon/dev_ws/install/face_detection --editable --build-directory /home/dahyeon/dev_ws/build/face_detection/build --no-deps install_data --install-dir /home/dahyeon/dev_ws/install/face_detection
+[0.678s] Traceback (most recent call last):
+[0.678s]   File "/usr/lib/python3.8/re.py", line 294, in _compile
+[0.679s]     return _cache[type(pattern), pattern, flags]
+[0.679s] KeyError: (<class 'str'>, '([\\d.]+)\\s*\\(IronPython\\s*[\\d.]+\\s*\\(([\\d.]+)\\) on ([\\w.]+ [\\d.]+(?: \\(\\d+-bit\\))?)\\)', 0)
+[0.679s] 
+[0.679s] During handling of the above exception, another exception occurred:
+[0.680s] 
+[0.681s] Traceback (most recent call last):
+[0.681s]   File "setup.py", line 1, in <module>
+[0.682s]     from setuptools import setup
+[0.682s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[0.682s]     import setuptools.version
+[0.682s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.682s]     import pkg_resources
+[0.682s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 33, in <module>
+[0.683s]     import platform
+[0.683s]   File "/usr/lib/python3.8/platform.py", line 959, in <module>
+[0.683s]     _ironpython26_sys_version_parser = re.compile(
+[0.683s]   File "/usr/lib/python3.8/re.py", line 252, in compile
+[0.683s]     return _compile(pattern, flags)
+[0.683s]   File "/usr/lib/python3.8/re.py", line 294, in _compile
+[0.684s]     return _cache[type(pattern), pattern, flags]
+[0.684s] KeyboardInterrupt

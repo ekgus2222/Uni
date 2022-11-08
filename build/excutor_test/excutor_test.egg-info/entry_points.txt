@@ -1,0 +1,4 @@
+[console_scripts]
+client_node = excutor_test.client:main
+server_node = excutor_test.server:main
+

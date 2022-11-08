@@ -1,0 +1,22 @@
+[0.372s] Invoking command in '/home/dahyeon/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_package -- -j12 -l12
+[0.737s] [100%] Built target my_node
+[0.742s] Invoked command in '/home/dahyeon/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dahyeon/dev_ws/build/my_package -- -j12 -l12
+[0.783s] Invoking command in '/home/dahyeon/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dahyeon/dev_ws/build/my_package
+[0.806s] -- Install configuration: ""
+[0.806s] -- Execute custom install script
+[0.806s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/lib/my_package/my_node
+[0.811s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.821s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.832s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.843s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.853s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.sh
+[0.863s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[0.873s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.bash
+[0.883s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.sh
+[0.892s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[0.902s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[0.912s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.dsv
+[0.921s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.931s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.940s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.947s] -- Symlinking: /home/dahyeon/dev_ws/install/my_package/share/my_package/package.xml

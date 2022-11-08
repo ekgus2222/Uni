@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.005876] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.005965] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.006009] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.006034] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.006059] (-) JobUnselected: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.006085] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.006112] (-) JobUnselected: {'identifier': 'my_package'}
+[0.006137] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.006163] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.006186] (-) JobUnselected: {'identifier': 'srv_alarm_interface'}
+[0.006210] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.006234] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.006260] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.006286] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.006311] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.006337] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.006361] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.006384] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.006407] (-) JobUnselected: {'identifier': 'uni'}
+[0.006434] (-) JobUnselected: {'identifier': 'uni_save'}
+[0.006462] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.013503] (test) JobStarted: {'identifier': 'test'}
+[0.100176] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.100333] (-) TimerEvent: {}
+[0.100626] (test) Command: {'cmd': ['/usr/bin/cmake', '/home/dahyeon/dev_ws/src/test', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dahyeon/dev_ws/install/test'], 'cwd': '/home/dahyeon/dev_ws/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dahyeon'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1458'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/92/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/dahyeon/dev_ws/install/turtlesim/lib:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dahyeon'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dahyeon/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.66.0'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/92/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/92/usr/share/code/code'), ('MANAGERPID', '1024'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5afaab57d05c33de4b8289d1624651af'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dahyeon/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dahyeon'), ('JOURNAL_STREAM', '8:37563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dahyeon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dahyeon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dahyeon-GP75-Leopard-10SEK:@/tmp/.ICE-unix/1496,unix/dahyeon-GP75-Leopard-10SEK:/tmp/.ICE-unix/1496'), ('INVOCATION_ID', 'dfbe5da76a8742ef845a54ca3661111e'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba716c27_6aa3_47d4_9799_945dccb3f57e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-899a672b94.sock'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/92/usr/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/logging_rclpy_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dahyeon/dev_ws/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5afaab57d05c33de4b8289d1624651af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dahyeon/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/time_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/tf2_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/srv_alarm_interface/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/rqt_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/ros2env:/home/dahyeon/dev_ws/install/ros2env/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/dahyeon/dev_ws/build/logging_rclpy_example:/home/dahyeon/dev_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dahyeon/dev_ws/install/uni_save:/home/dahyeon/dev_ws/install/uni:/home/dahyeon/dev_ws/install/turtlesim:/home/dahyeon/dev_ws/install/topic_service_action_rclcpp_example:/home/dahyeon/dev_ws/install/time_rclcpp_example:/home/dahyeon/dev_ws/install/tf2_rclcpp_example:/home/dahyeon/dev_ws/install/testbot_description:/home/dahyeon/dev_ws/install/srv_alarm_interface:/home/dahyeon/dev_ws/install/rqt_example:/home/dahyeon/dev_ws/install/my_package:/home/dahyeon/dev_ws/install/my_first_ros_rclcpp_pkg:/home/dahyeon/dev_ws/install/msg_srv_action_interface_example:/home/dahyeon/dev_ws/install/cpp_pubsub:/home/dahyeon/dev_ws/install/cpp_parameters:/home/dahyeon/dev_ws/install/topic_service_action_rclpy_example:/home/dahyeon/dev_ws/install/time_rclpy_example:/home/dahyeon/dev_ws/install/tf2_rclpy_example:/home/dahyeon/dev_ws/install/ros2env:/home/dahyeon/dev_ws/install/my_first_ros_rclpy_pkg:/home/dahyeon/dev_ws/install/logging_rclpy_example:/opt/ros/foxy')]), 'shell': False}
+[0.200467] (-) TimerEvent: {}
+[0.300792] (-) TimerEvent: {}
+[0.341562] (test) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400899] (-) TimerEvent: {}
+[0.501204] (-) TimerEvent: {}
+[0.525507] (test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.546740] (test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.601495] (-) TimerEvent: {}
+[0.673497] (test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.674853] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705507] (-) TimerEvent: {}
+[0.766861] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.805838] (test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.806048] (-) TimerEvent: {}
+[0.810091] (test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.827444] (test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.909507] (-) TimerEvent: {}
+[1.009804] (-) TimerEvent: {}
+[1.050665] (test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.052383] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.109905] (-) TimerEvent: {}
+[1.213496] (-) TimerEvent: {}
+[1.222939] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.239959] (test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.241510] (test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.313937] (-) TimerEvent: {}
+[1.328439] (test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.417486] (-) TimerEvent: {}
+[1.441501] (test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.441737] (test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.517579] (-) TimerEvent: {}
+[1.617856] (-) TimerEvent: {}
+[1.718143] (-) TimerEvent: {}
+[1.766241] (test) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.820636] (-) TimerEvent: {}
+[1.921489] (-) TimerEvent: {}
+[2.013557] (test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.021591] (-) TimerEvent: {}
+[2.121907] (-) TimerEvent: {}
+[2.221500] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.225490] (-) TimerEvent: {}
+[2.248154] (test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.325601] (-) TimerEvent: {}
+[2.425919] (-) TimerEvent: {}
+[2.491491] (test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.529498] (-) TimerEvent: {}
+[2.569495] (test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.629687] (-) TimerEvent: {}
+[2.733516] (-) TimerEvent: {}
+[2.835249] (-) TimerEvent: {}
+[2.867026] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.937553] (-) TimerEvent: {}
+[3.010415] (test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.016200] (test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.018368] (test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.037670] (-) TimerEvent: {}
+[3.124970] (test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.125236] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.139356] (-) TimerEvent: {}
+[3.230759] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.231043] (test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.243366] (-) TimerEvent: {}
+[3.322597] (test) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.323124] (test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.345507] (-) TimerEvent: {}
+[3.449492] (-) TimerEvent: {}
+[3.502481] (test) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.504175] (test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.553497] (-) TimerEvent: {}
+[3.657501] (-) TimerEvent: {}
+[3.760605] (-) TimerEvent: {}
+[3.860935] (-) TimerEvent: {}
+[3.925580] (test) StdoutLine: {'line': b'-- Found srv_alarm_interface: 0.6.0 (/home/dahyeon/dev_ws/install/srv_alarm_interface/share/srv_alarm_interface/cmake)\n'}
+[3.957512] (test) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[3.957792] (test) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'CURL' was not found\n"}
+[3.957914] (test) StderrLine: {'line': b'  before\n'}
+[3.958007] (test) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.958096] (test) StderrLine: {'line': b'  CMakeLists.txt:27 (ament_target_dependencies)\n'}
+[3.958185] (test) StderrLine: {'line': b'\n'}
+[3.958273] (test) StderrLine: {'line': b'\n'}
+[3.958429] (test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.958525] (test) StdoutLine: {'line': b'See also "/home/dahyeon/dev_ws/build/test/CMakeFiles/CMakeOutput.log".\n'}
+[3.958613] (test) StdoutLine: {'line': b'See also "/home/dahyeon/dev_ws/build/test/CMakeFiles/CMakeError.log".\n'}
+[3.965495] (-) TimerEvent: {}
+[3.972401] (test) CommandEnded: {'returncode': 1}
+[4.049538] (test) JobEnded: {'identifier': 'test', 'rc': 1}
+[4.061497] (-) EventReactorShutdown: {}

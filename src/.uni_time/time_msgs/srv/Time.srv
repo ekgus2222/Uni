@@ -1,0 +1,12 @@
+# request -> home_address, office_address, alarm_set/transport_req
+int32 mode
+string timeTOwork
+string home_address
+string office_address
+string required_time
+int32 required_time_cnt
+string request          # alarm_set or transport_req
+---
+# response -> alarm_time/transfort_info
+string alarm_time_response
+string transport_response

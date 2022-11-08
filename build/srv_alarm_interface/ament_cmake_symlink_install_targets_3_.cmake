@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dahyeon/dev_ws/build/srv_alarm_interface/rosidl_generator_py/srv_alarm_interface/srv_alarm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "srv_alarm_interface__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/srv_alarm_interface")

@@ -1,0 +1,2 @@
+bool is_first_alarm
+string remained_time
